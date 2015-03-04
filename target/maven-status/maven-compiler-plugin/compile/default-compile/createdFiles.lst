@@ -1,0 +1,5 @@
+com\criliscraft\plugin\listeners\PlayerListener.class
+com\criliscraft\plugin\listeners\EntityListener.class
+com\criliscraft\plugin\listeners\BlockListener.class
+com\criliscraft\plugin\CriLisCraft.class
+com\criliscraft\plugin\util\ChatPrefix.class

@@ -1,0 +1,22 @@
+name: CriLisCraft
+main: com.criliscraft.plugin.CriLisCraft
+version: 1.7.3-SNAPSHOT
+commands:
+   clc:
+      description: The Main Command
+      usage: /<command>
+   clc-help:
+      description: List All Commands
+      usage: /<command>
+   clc-sphat:
+      description: Saint Patricks Day Hat
+      usage: /<command>
+   clc-hat:
+      description: Hat command
+      usage: /<command>
+   clc-random:
+      description: teleports the player to a random location
+      usage: /<command>
+   clc-reload:
+      description: Vanishes the player
+      usage: /<command>
