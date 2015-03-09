@@ -1,21 +1,23 @@
 package com.criliscraft.plugin;
 
+import com.criliscraft.plugin.commands.CMDKillPlayer;
+import com.criliscraft.plugin.gui.WellfareGUI;
 import com.criliscraft.plugin.listeners.BlockListener;
-import com.criliscraft.plugin.listeners.EntityListener;
 import com.criliscraft.plugin.listeners.PlayerListener;
-import com.criliscraft.plugin.util.ChatPrefix;
-import org.bukkit.ChatColor;
-import org.bukkit.Location;
-import org.bukkit.Material;
+import com.criliscraft.plugin.util.Info;
+import org.bukkit.*;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
+import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.PlayerInventory;
 import org.bukkit.permissions.Permission;
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
+import org.mcstats.Metrics;
 
+import java.io.IOException;
 import java.util.Random;
 
 public class CriLisCraft extends JavaPlugin {
@@ -24,10 +26,19 @@ public class CriLisCraft extends JavaPlugin {
     public Permission clcHat = new Permission("clc.cmd.hat");
     public Permission clcPlaceTnt = new Permission("clc.place.tnt");
     public Permission clcRandom = new Permission("clc.cmd.random");
-    public Permission clcVanish = new Permission("clc.cmd.vanish");
+    public Permission clcCreativeOnJoin = new Permission("clc.creativeonjoin");
+    public Permission clcReload = new Permission("clc.cmd.reload");
+    public Permission clcWellfare = new Permission("clc.cmd.wellfare");
 
     @Override
     public void onEnable() {
+        try {
+            Metrics metrics = new Metrics(this);
+            metrics.start();
+        } catch (IOException e) {
+            e.printStackTrace();
+            getLogger().severe("Failed To Submit Metrics");
+        }
         new PlayerListener(this);
         new BlockListener(this);
         //new EntityListener(this);
@@ -36,7 +47,9 @@ public class CriLisCraft extends JavaPlugin {
         pm.addPermission(clcHat);
         pm.addPermission(clcPlaceTnt);
         pm.addPermission(clcRandom);
-        pm.addPermission(clcVanish);
+        pm.addPermission(clcCreativeOnJoin);
+        pm.addPermission(clcReload);
+        pm.addPermission(clcWellfare);
         this.getConfig().addDefault("statsenabled", true);
         this.getConfig().addDefault("playerkills", 0);
         this.getConfig().addDefault("zombiekills", 0);
@@ -44,8 +57,12 @@ public class CriLisCraft extends JavaPlugin {
         this.getConfig().addDefault("skeletonkills", 0);
         this.getConfig().addDefault("spiderkills", 0);
         this.getConfig().options().copyDefaults(true);
+
+        //Commands
+        this.getCommand("clc-kill").setExecutor(new CMDKillPlayer(this));
         saveConfig();
         getLogger().info("Enabled");
+        new WellfareGUI(this);
     }
     @Override
     public void onDisable() {
@@ -54,13 +71,9 @@ public class CriLisCraft extends JavaPlugin {
     }
 
     public boolean onCommand(CommandSender sender, Command cmd, String label, String [] args) {
-        if (cmd.getName().equalsIgnoreCase("clc") && sender instanceof Player) {
+        if (cmd.getName().equalsIgnoreCase("clc-help") && sender instanceof  Player) {
             Player player = (Player) sender;
-            player.sendMessage(ChatPrefix.CHAT_PREFIX + "Use /clc-help for a list of commands!");
-            return true;
-        } else if (cmd.getName().equalsIgnoreCase("clc-help") && sender instanceof  Player) {
-            Player player = (Player) sender;
-            player.sendMessage(ChatPrefix.CHAT_PREFIX + "Command List");
+            player.sendMessage(Info.CHAT_PREFIX + "Command List");
             player.sendMessage(ChatColor.RED + "/clc" + ChatColor.DARK_AQUA + " - The Main Command");
             player.sendMessage(ChatColor.RED + "/clc-help" + ChatColor.DARK_AQUA + " - Diaplay's All Help Info");
             player.sendMessage(ChatColor.RED + "/clc-sphat" + ChatColor.DARK_AQUA + " - Saint Patricks Day Hat!");
@@ -72,9 +85,10 @@ public class CriLisCraft extends JavaPlugin {
             Player player = (Player) sender;
             if (player.hasPermission("clc.cmd.sphat")) {
                 player.getInventory().setHelmet(new ItemStack(Material.EMERALD_BLOCK));
-                player.sendMessage(ChatPrefix.CHAT_PREFIX + ChatColor.DARK_GREEN + "Have fun with your new hat!");
+                player.sendMessage(Info.CHAT_PREFIX + ChatColor.DARK_GREEN + "Have fun with your new hat!");
             } else {
-                player.sendMessage(ChatPrefix.NO_PERMS);
+                player.sendMessage(Info.NO_PERMS);
+                player.playSound(player.getLocation(), Sound.GHAST_FIREBALL, 1, 1);
             }
             return true;
         } else if (cmd.getName().equalsIgnoreCase("clc-hat") && sender instanceof Player) {
@@ -87,12 +101,13 @@ public class CriLisCraft extends JavaPlugin {
                     inventory.removeItem(new ItemStack[] { itemHand });
                     inventory.setHelmet(itemHand);
                     inventory.setItemInHand(itemHead);
-                    player.sendMessage(ChatPrefix.CHAT_PREFIX + "Yey a hat!");
+                    player.sendMessage(Info.CHAT_PREFIX + "Yey a hat!");
                 } else {
-                        player.sendMessage(ChatPrefix.CHAT_PREFIX + ChatColor.DARK_RED + "You must have something in your hand!");
+                        player.sendMessage(Info.CHAT_PREFIX + ChatColor.DARK_RED + "You must have something in your hand!");
                 }
             } else {
-                player.sendMessage(ChatPrefix.NO_PERMS);
+                player.sendMessage(Info.NO_PERMS);
+                player.playSound(player.getLocation(), Sound.GHAST_FIREBALL, 1, 1);
             }
             return true;
         } else if (cmd.getName().equalsIgnoreCase("clc-random") && sender instanceof Player) {
@@ -111,21 +126,40 @@ public class CriLisCraft extends JavaPlugin {
                         isOnLand = true;
                     } else y--;
                     player.teleport(new Location(player.getWorld(), teleportLocation.getX(), teleportLocation.getY() + 1, teleportLocation.getZ()));
-                    player.sendMessage(ChatPrefix.CHAT_PREFIX + "You have been teleported " + (int)teleportLocation.distance(originalLocation) + " blocks away!");
+                    player.sendMessage(Info.CHAT_PREFIX + "You have been teleported " + (int)teleportLocation.distance(originalLocation) + " blocks away!");
                 }
             } else {
-                player.sendMessage(ChatPrefix.NO_PERMS);
+                player.sendMessage(Info.NO_PERMS);
+                player.playSound(player.getLocation(), Sound.GHAST_FIREBALL, 1, 1);
             }
             return true;
         } else if (cmd.getName().equalsIgnoreCase("clc-reload") && sender instanceof Player) {
             Player player = (Player) sender;
             if (player.hasPermission("clc.cmd.reload")) {
                 reloadConfig();
-                player.sendMessage(ChatPrefix.CHAT_PREFIX + "Config Successfully Reloaded!");
+                player.sendMessage(Info.CHAT_PREFIX + "Config Successfully Reloaded!");
             } else {
-                player.sendMessage(ChatPrefix.NO_PERMS);
+                player.sendMessage(Info.NO_PERMS);
+                player.playSound(player.getLocation(), Sound.GHAST_FIREBALL, 1, 1);
             }
             return true;
+        } else if (cmd.getName().equalsIgnoreCase("gm1") && sender instanceof Player) {
+            Player player = (Player) sender;
+            if (player.isOp()) {
+                player.setGameMode(GameMode.CREATIVE);
+            } else {
+                player.sendMessage(Info.NO_PERMS);
+                player.playSound(player.getLocation(), Sound.GHAST_FIREBALL, 1, 1);
+            }
+            return true;
+        } else if (cmd.getName().equalsIgnoreCase("clc-wellfare") && sender instanceof Player) {
+            Player player = (Player) sender;
+            if (player.hasPermission("clc.cmd.wellfare")) {
+                player.sendMessage(Info.CHAT_PREFIX + "Command Is a WIP");
+            } else {
+                player.sendMessage(Info.NO_PERMS);
+                player.sendMessage(Info.CHAT_PREFIX + "Command Is a WIP");
+            }
         }
         return false;
     }

@@ -1,5 +1,9 @@
 com\criliscraft\plugin\listeners\PlayerListener.class
-com\criliscraft\plugin\listeners\EntityListener.class
 com\criliscraft\plugin\listeners\BlockListener.class
+com\criliscraft\plugin\gui\WellfareGUI.class
+com\criliscraft\plugin\commands\CMDCLC.class
+com\criliscraft\plugin\listeners\EntityListener.class
 com\criliscraft\plugin\CriLisCraft.class
-com\criliscraft\plugin\util\ChatPrefix.class
+com\criliscraft\plugin\util\Info.class
+com\criliscraft\plugin\commands\CMDHelp.class
+com\criliscraft\plugin\commands\CMDKillPlayer.class

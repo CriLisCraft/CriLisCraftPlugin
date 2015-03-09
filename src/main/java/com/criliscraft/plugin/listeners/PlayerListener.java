@@ -1,11 +1,12 @@
 package com.criliscraft.plugin.listeners;
 
 import com.criliscraft.plugin.CriLisCraft;
-import org.bukkit.ChatColor;
-import org.bukkit.Location;
+import com.criliscraft.plugin.util.Info;
+import org.bukkit.*;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
+import org.bukkit.event.player.PlayerAchievementAwardedEvent;
 import org.bukkit.event.player.PlayerJoinEvent;
 
 public class PlayerListener implements Listener {
@@ -18,13 +19,14 @@ public class PlayerListener implements Listener {
         Player player = e.getPlayer();
         if (!player.hasPlayedBefore()) {
             e.setJoinMessage(ChatColor.DARK_PURPLE + "[WELCOME] " + ChatColor.LIGHT_PURPLE + "Welcome, " + ChatColor.DARK_AQUA + player.getName() + ChatColor.LIGHT_PURPLE + ", to the server!");
-
-            Location teleportLocation = null;
-            int x = -18;
-            int y = 42;
-            int z = 747;
-            teleportLocation = new Location(player.getWorld(), x, y, z);
-            player.teleport(new Location(player.getWorld(), teleportLocation.getX(), teleportLocation.getY() + 1, teleportLocation.getZ()));
+            player.teleport(new Location(player.getWorld(), 105, 45, 98));
         }
+        if (player.hasPermission("clc.creativeonjoin")) {
+            player.setGameMode(GameMode.CREATIVE);
+            player.sendMessage(Info.CHAT_PREFIX + "Your gamemode has been updated.");
+        }
+    }
+    public void onPlayer(PlayerAchievementAwardedEvent e) {
+        Player player = e.getPlayer();
     }
 }

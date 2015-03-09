@@ -1,7 +1,7 @@
 package com.criliscraft.plugin.listeners;
 
 import com.criliscraft.plugin.CriLisCraft;
-import com.criliscraft.plugin.util.ChatPrefix;
+import com.criliscraft.plugin.util.Info;
 import org.bukkit.entity.*;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
@@ -21,27 +21,27 @@ public class EntityListener implements Listener {
             Player player = (Player) killer;
             int killcount = configGetter.getConfig().getInt("playerkills");
             configGetter.getConfig().set("playerkills", killcount + 1);
-            player.sendMessage(ChatPrefix.CHAT_PREFIX + "You Have Killed a Player");
+            player.sendMessage(Info.CHAT_PREFIX + "You Have Killed a Player");
         } else if (killer instanceof Player && deadEntity instanceof Zombie) {
             Player player = (Player) killer;
             int killcount = configGetter.getConfig().getInt("zombiekills");
             configGetter.getConfig().set("zombiekills", killcount + 1);
-            player.sendMessage(ChatPrefix.CHAT_PREFIX + "You Have Killed a Zombie");
+            player.sendMessage(Info.CHAT_PREFIX + "You Have Killed a Zombie");
         } else if (killer instanceof Player && deadEntity instanceof Creeper) {
             Player player = (Player) killer;
             int killcount = configGetter.getConfig().getInt("creeperkills");
             configGetter.getConfig().set("creeperkills", killcount + 1);
-            player.sendMessage(ChatPrefix.CHAT_PREFIX + "You have killed a Creeper");
+            player.sendMessage(Info.CHAT_PREFIX + "You have killed a Creeper");
         } else if (killer instanceof Player && deadEntity instanceof Skeleton) {
             Player player = (Player) killer;
             int killcount = configGetter.getConfig().getInt("skeletonkills");
             configGetter.getConfig().set("skeletonkills", killcount + 1);
-            player.sendMessage(ChatPrefix.CHAT_PREFIX + "You have killed a Skeleton");
+            player.sendMessage(Info.CHAT_PREFIX + "You have killed a Skeleton");
         } else if (killer instanceof Player && deadEntity instanceof  Spider) {
             Player player = (Player) killer;
             int killcount = configGetter.getConfig().getInt("spiderkills");
             configGetter.getConfig().set("spiderkills", killcount + 1);
-            player.sendMessage(ChatPrefix.CHAT_PREFIX + "You have killed a Spider");
+            player.sendMessage(Info.CHAT_PREFIX + "You have killed a Spider");
         }
     }
 }

@@ -1,7 +1,7 @@
 package com.criliscraft.plugin.listeners;
 
 import com.criliscraft.plugin.CriLisCraft;
-import com.criliscraft.plugin.util.ChatPrefix;
+import com.criliscraft.plugin.util.Info;
 import org.bukkit.Material;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
@@ -17,7 +17,7 @@ public class BlockListener implements Listener {
         Player player = e.getPlayer();
         if (e.getBlock().getType() == Material.TNT) {
             if (!player.hasPermission("clc.place.tnt")) {
-                player.sendMessage(ChatPrefix.NO_PERMS_PLACE + e.getBlock().getType().toString());
+                player.sendMessage(Info.NO_PERMS_PLACE + e.getBlock().getType().toString());
                 e.setCancelled(true);
             }
         }

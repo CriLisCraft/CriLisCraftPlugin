@@ -1,6 +1,6 @@
 name: CriLisCraft
 main: com.criliscraft.plugin.CriLisCraft
-version: 1.7.3-SNAPSHOT
+version: 1.8-SNAPSHOT
 commands:
    clc:
       description: The Main Command
@@ -19,4 +19,10 @@ commands:
       usage: /<command>
    clc-reload:
       description: Vanishes the player
+      usage: /<command>
+   gm1:
+      description: Changes The player To Creative
+      usage: /<command>
+   clc-kill:
+      description: Kills The Player
       usage: /<command>
