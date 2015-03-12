@@ -1,6 +1,5 @@
 package com.criliscraft.plugin;
 
-import com.criliscraft.plugin.commands.CMDKillPlayer;
 import com.criliscraft.plugin.gui.WellfareGUI;
 import com.criliscraft.plugin.listeners.BlockListener;
 import com.criliscraft.plugin.listeners.PlayerListener;
@@ -9,7 +8,6 @@ import org.bukkit.*;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
-import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.PlayerInventory;
 import org.bukkit.permissions.Permission;
@@ -59,7 +57,6 @@ public class CriLisCraft extends JavaPlugin {
         this.getConfig().options().copyDefaults(true);
 
         //Commands
-        this.getCommand("clc-kill").setExecutor(new CMDKillPlayer(this));
         saveConfig();
         getLogger().info("Enabled");
         new WellfareGUI(this);
