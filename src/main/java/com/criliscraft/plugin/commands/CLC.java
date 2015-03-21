@@ -3,6 +3,7 @@ package com.criliscraft.plugin.commands;
 import com.criliscraft.plugin.CriLisCraft;
 import com.criliscraft.plugin.util.Info;
 import com.criliscraft.plugin.util.Perms;
+import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
 import org.bukkit.Sound;
@@ -11,6 +12,8 @@ import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
+import org.bukkit.potion.PotionEffect;
+import org.bukkit.potion.PotionEffectType;
 
 public class CLC implements CommandExecutor {
 
@@ -21,13 +24,11 @@ public class CLC implements CommandExecutor {
         this.pl = pl;
         configGetter = pl;
     }
-
     @Override
-    public boolean onCommand(CommandSender sender, Command cmd, String s, String[] args) {
+    public boolean onCommand(CommandSender sender, Command cmd, String string, String[] args) {
         int length = args.length;
         if (cmd.getName().equalsIgnoreCase("clc") && sender instanceof Player) {
             Player player = (Player) sender;
-            player.sendMessage(Info.CHAT_PREFIX + "Use /clc help for a list of commands!");
             if (length == 1 && args[0].equalsIgnoreCase("help")) {
                 if (player.hasPermission(Perms.clcHelp)) {
                     player.sendMessage(Info.C3 + "-- " + Info.CA + "Commands" + Info.C3 + " ---");
@@ -41,40 +42,24 @@ public class CLC implements CommandExecutor {
                     if (player.hasPermission(Perms.clcHat)) {
                         player.sendMessage(ChatColor.RED + "/clc hat" + ChatColor.DARK_AQUA + " - Makes the item in your hand a hat");
                     }
-                    if (player.hasPermission("clc.cmd.random")) {
+                    if (player.hasPermission(Perms.clcRandom)) {
                         player.sendMessage(ChatColor.RED + "/clc random" + ChatColor.DARK_AQUA + " - Teleports you to a random location");
                     }
-                    if (player.hasPermission("clc.cmd.reload")) {
+                    if (player.hasPermission(Perms.clcReload)) {
                         player.sendMessage(ChatColor.RED + "/clc reload" + ChatColor.DARK_AQUA + " - Reloads the config");
                     }
                 } else {
-                    player.sendMessage(Info.NO_PERMS);
-                    player.playSound(player.getLocation(), Sound.GHAST_FIREBALL, 1, 1);
+                    Info.noPerms(player);
                 }
-                return true;
-            } else if (length == 1 && args[0].equalsIgnoreCase("sphat")) {
-                if (player.hasPermission("clc.cmd.sphat") && sender instanceof Player) {
-                    player.getInventory().setHelmet(new ItemStack(Material.EMERALD_BLOCK));
-                    player.sendMessage(Info.CHAT_PREFIX + "Happy Saint Patrick's Day, Have a hat!");
-                } else {
-                    player.sendMessage(Info.NO_PERMS);
-                    player.playSound(player.getLocation(), Sound.GHAST_FIREBALL, 1, 1);
-                }
-                return true;
             } else if (length == 1 && args[0].equalsIgnoreCase("reload")) {
                 if (player.hasPermission(Perms.clcReload)) {
                     configGetter.reloadConfig();
                     player.sendMessage(Info.CHAT_PREFIX + "Config Reloaded");
                 } else {
-                    player.sendMessage(Info.NO_PERMS);
-                    player.playSound(player.getLocation(), Sound.GHAST_FIREBALL, 1, 1);
+                    Info.noPerms(player);
                 }
-                return true;
             }
-        } else {
-            Player player = (Player) sender;
-            player.sendMessage(Info.NO_PERMS);
-            player.playSound(player.getLocation(), Sound.GHAST_FIREBALL, 1, 1);
+            return true;
         }
         return false;
     }

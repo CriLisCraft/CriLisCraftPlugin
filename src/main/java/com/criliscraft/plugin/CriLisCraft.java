@@ -1,8 +1,6 @@
 package com.criliscraft.plugin;
 
-import com.criliscraft.plugin.commands.CLC;
-import com.criliscraft.plugin.commands.Hat;
-import com.criliscraft.plugin.commands.Random;
+import com.criliscraft.plugin.commands.*;
 import com.criliscraft.plugin.listeners.BlockListener;
 import com.criliscraft.plugin.listeners.PlayerListener;
 import com.criliscraft.plugin.util.Perms;
@@ -47,6 +45,9 @@ public class CriLisCraft extends JavaPlugin {
         this.getCommand("clc").setExecutor(new CLC(this));
         this.getCommand("hat").setExecutor(new Hat(this));
         this.getCommand("random").setExecutor(new Random(this));
+        this.getCommand("kit").setExecutor(new Kit(this));
+        this.getCommand("buy").setExecutor(new Buy(this));
+        this.getCommand("metaitem").setExecutor(new MetaItem(this));
 
         saveConfig();
 

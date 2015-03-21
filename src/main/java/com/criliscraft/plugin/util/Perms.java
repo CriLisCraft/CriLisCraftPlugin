@@ -11,4 +11,10 @@ public class Perms {
     static public Permission clcReload = new Permission("clc.cmd.reload");
     static public Permission clcWellfare = new Permission("clc.cmd.wellfare");
     static public Permission clcHelp = new Permission("clc.cmd.help");
+    static public Permission clcBuy = new Permission("clc.cmd.buy");
+    static public Permission clcMetaItem = new Permission("clc.cmd.metaitem");
+
+    //Kits
+    static public Permission clcKitStaff = new Permission("clc.kit.staff");
+    static public Permission clcKitTier1 = new Permission("clc.kit.tier1");
 }

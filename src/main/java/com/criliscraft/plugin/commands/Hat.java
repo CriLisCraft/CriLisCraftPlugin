@@ -12,6 +12,8 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.PlayerInventory;
+import org.bukkit.potion.PotionEffect;
+import org.bukkit.potion.PotionEffectType;
 
 public class Hat implements CommandExecutor {
 
@@ -37,8 +39,7 @@ public class Hat implements CommandExecutor {
                     player.sendMessage(Info.CHAT_PREFIX + ChatColor.DARK_RED + "You must have something in your hand!");
                 }
             } else {
-                player.sendMessage(Info.NO_PERMS);
-                player.playSound(player.getLocation(), Sound.GHAST_FIREBALL, 1, 1);
+                Info.noPerms(player);
             }
             return true;
         }

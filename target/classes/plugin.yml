@@ -1,6 +1,6 @@
 name: CriLisCraft
 main: com.criliscraft.plugin.CriLisCraft
-version: 1.9.4-SNAPSHOT
+version: 1.9.13-R0.4-SNAPSHOT
 commands:
    clc:
       description: The Main Command
@@ -9,5 +9,14 @@ commands:
       description: Hat command
       usage: /<command>
    random:
-      description: teleports the player to a random location
+      description: Teleports the player to a random location
+      usage: /<command>
+   kit:
+      description: Experimenting with kits
+      usage: /<command>
+   buy:
+      description: Command redirect
+      usage: /<command>
+   metaitem:
+      description: Meta ItemStack
       usage: /<command>

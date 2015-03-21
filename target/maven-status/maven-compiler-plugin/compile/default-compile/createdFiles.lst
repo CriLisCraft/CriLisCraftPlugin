@@ -1,9 +1,12 @@
 com\criliscraft\plugin\listeners\PlayerListener.class
-com\criliscraft\plugin\commands\Hat.class
-com\criliscraft\plugin\listeners\BlockListener.class
 com\criliscraft\plugin\commands\CLC.class
 com\criliscraft\plugin\util\Perms.class
 com\criliscraft\plugin\commands\Random.class
 com\criliscraft\plugin\listeners\EntityListener.class
 com\criliscraft\plugin\CriLisCraft.class
+com\criliscraft\plugin\commands\Kit.class
+com\criliscraft\plugin\commands\Hat.class
+com\criliscraft\plugin\listeners\BlockListener.class
+com\criliscraft\plugin\commands\Buy.class
 com\criliscraft\plugin\util\Info.class
+com\criliscraft\plugin\commands\MetaItem.class
