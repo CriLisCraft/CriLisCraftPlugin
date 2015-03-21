@@ -21,11 +21,12 @@ public class CriLisCraft extends JavaPlugin {
             e.printStackTrace();
             getLogger().severe("Failed To Submit Metrics");
         }
+
         new PlayerListener(this);
         new BlockListener(this);
         //new EntityListener(this);
+
         PluginManager pm = getServer().getPluginManager();
-        pm.addPermission(Perms.clcSphatPerm);
         pm.addPermission(Perms.clcHat);
         pm.addPermission(Perms.clcPlaceTnt);
         pm.addPermission(Perms.clcRandom);
@@ -33,6 +34,18 @@ public class CriLisCraft extends JavaPlugin {
         pm.addPermission(Perms.clcReload);
         pm.addPermission(Perms.clcWellfare);
         pm.addPermission(Perms.clcHelp);
+        pm.addPermission(Perms.clcBuy);
+        pm.addPermission(Perms.clcKit);
+        pm.addPermission(Perms.clcKitChaka);
+        pm.addPermission(Perms.clcKitList);
+        pm.addPermission(Perms.clcKitLegeis);
+        pm.addPermission(Perms.clcKitStaff);
+        pm.addPermission(Perms.clcKitTier1);
+        pm.addPermission(Perms.clcKitTier2);
+        pm.addPermission(Perms.clcKitTier3);
+        pm.addPermission(Perms.clcKitTier4);
+        pm.addPermission(Perms.clcKitTier5);
+        pm.addPermission(Perms.clcMetaItem);
         this.getConfig().addDefault("statsenabled", true);
         this.getConfig().addDefault("playerkills", 0);
         this.getConfig().addDefault("zombiekills", 0);

@@ -1,6 +1,6 @@
 name: CriLisCraft
 main: com.criliscraft.plugin.CriLisCraft
-version: 1.9.13-R0.4-SNAPSHOT
+version: 1.9.14-R0.2-SNAPSHOT
 commands:
    clc:
       description: The Main Command

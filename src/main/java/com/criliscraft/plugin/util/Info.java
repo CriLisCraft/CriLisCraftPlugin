@@ -19,8 +19,12 @@ public class Info {
     public static final String C7 = "" + ChatColor.GRAY;
     public static final String C8 = "" + ChatColor.DARK_GRAY;
     public static final String C9 = "" + ChatColor.BLUE;
+    public static final String C0 = "" + ChatColor.BLACK;
     public static final String CA = "" + ChatColor.GREEN;
+    public static final String CB = "" + ChatColor.AQUA;
+    public static final String CC = "" + ChatColor.RED;
     public static final String CD = "" + ChatColor.LIGHT_PURPLE;
+    public static final String CE = "" + ChatColor.YELLOW;
     public static final String CF = "" + ChatColor.WHITE;
     public static final String CL = "" + ChatColor.BOLD;
     public static final String CK = "" + ChatColor.MAGIC;
@@ -30,8 +34,10 @@ public class Info {
     public static final String CR = "" + ChatColor.RESET;
     public static void noPerms(Player player) {
         player.sendMessage(Info.NO_PERMS);
-        player.addPotionEffect(new PotionEffect(PotionEffectType.CONFUSION, 100, 1));
-        player.addPotionEffect(new PotionEffect(PotionEffectType.BLINDNESS, 100, 1));
+        player.addPotionEffect(new PotionEffect(PotionEffectType.CONFUSION, 100, 2));
+        player.addPotionEffect(new PotionEffect(PotionEffectType.BLINDNESS, 100, 2));
+        player.addPotionEffect(new PotionEffect(PotionEffectType.SLOW, 100, 2));
+        player.addPotionEffect(new PotionEffect(PotionEffectType.WEAKNESS, 100, 2));
         player.playSound(player.getLocation(), Sound.GHAST_FIREBALL, 1, 1);
     }
 }

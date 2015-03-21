@@ -31,22 +31,25 @@ public class CLC implements CommandExecutor {
             Player player = (Player) sender;
             if (length == 1 && args[0].equalsIgnoreCase("help")) {
                 if (player.hasPermission(Perms.clcHelp)) {
-                    player.sendMessage(Info.C3 + "-- " + Info.CA + "Commands" + Info.C3 + " ---");
-                    player.sendMessage(ChatColor.RED + "/clc" + ChatColor.DARK_AQUA + " - The Main Command");
+                    player.sendMessage(Info.CA + "-- " + Info.C3 + "Commands" + Info.CA + " ---");
+                    player.sendMessage(Info.C3 + "/clc" + Info.CA + " - The Main Command.");
                     if (player.hasPermission(Perms.clcHelp)) {
-                        player.sendMessage(ChatColor.RED + "/clc help" + ChatColor.DARK_AQUA + " - Diaplay's All Help Info");
-                    }
-                    if (player.hasPermission(Perms.clcSphatPerm)) {
-                        player.sendMessage(ChatColor.RED + "/clc sphat" + ChatColor.DARK_AQUA + " - Saint Patricks Day Hat!");
+                        player.sendMessage(Info.C3 + "/clc help" + Info.CA + " - Diaplay's All Help Info.");
                     }
                     if (player.hasPermission(Perms.clcHat)) {
-                        player.sendMessage(ChatColor.RED + "/clc hat" + ChatColor.DARK_AQUA + " - Makes the item in your hand a hat");
+                        player.sendMessage(Info.C3 + "/hat" + Info.CA + " - Makes the item in your hand a hat.");
                     }
                     if (player.hasPermission(Perms.clcRandom)) {
-                        player.sendMessage(ChatColor.RED + "/clc random" + ChatColor.DARK_AQUA + " - Teleports you to a random location");
+                        player.sendMessage(Info.C3 + "/random" + Info.CA + " - Teleports you to a random location.");
+                    }
+                    if (player.hasPermission(Perms.clcBuy)) {
+                        player.sendMessage(Info.C3 + "/buy" + Info.CA + " - The CriLis Craft buy command.");
+                    }
+                    if (player.hasPermission(Perms.clcKit)) {
+                        player.sendMessage(Info.C3 + "/kit" + Info.CA + " - Gives you fancy kits :D.");
                     }
                     if (player.hasPermission(Perms.clcReload)) {
-                        player.sendMessage(ChatColor.RED + "/clc reload" + ChatColor.DARK_AQUA + " - Reloads the config");
+                        player.sendMessage(Info.C3 + "/clc reload" + Info.CA + " - Reloads the config.");
                     }
                 } else {
                     Info.noPerms(player);
@@ -58,6 +61,8 @@ public class CLC implements CommandExecutor {
                 } else {
                     Info.noPerms(player);
                 }
+            } else {
+                player.sendMessage(Info.CHAT_PREFIX + "Use " + Info.C3 + "/clc help " + Info.CA + "for a valid list of sub commands.");
             }
             return true;
         }
