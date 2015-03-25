@@ -184,15 +184,92 @@
     <mapping directory="" vcs="Git" />
   </component>
   <component name="libraryTable">
-    <library name="Maven: org.bukkit:bukkit:1.7.9-R0.2">
+    <library name="Maven: com.google.guava:guava:17.0">
       <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/bukkit/bukkit/1.7.9-R0.2/bukkit-1.7.9-R0.2.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/17.0/guava-17.0.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/org/bukkit/bukkit/1.7.9-R0.2/bukkit-1.7.9-R0.2-javadoc.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/17.0/guava-17.0-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/bukkit/bukkit/1.7.9-R0.2/bukkit-1.7.9-R0.2-sources.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/17.0/guava-17.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.googlecode.json-simple:json-simple:1.1.1">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: commons-lang:commons-lang:2.6">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/commons-lang/commons-lang/2.6/commons-lang-2.6.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/commons-lang/commons-lang/2.6/commons-lang-2.6-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/commons-lang/commons-lang/2.6/commons-lang-2.6-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: javax.persistence:persistence-api:1.0">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/javax/persistence/persistence-api/1.0/persistence-api-1.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/javax/persistence/persistence-api/1.0/persistence-api-1.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/javax/persistence/persistence-api/1.0/persistence-api-1.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: junit:junit:4.10">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/junit/junit/4.10/junit-4.10.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/junit/junit/4.10/junit-4.10-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/junit/junit/4.10/junit-4.10-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.avaje:ebean:2.8.1">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/avaje/ebean/2.8.1/ebean-2.8.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/avaje/ebean/2.8.1/ebean-2.8.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/avaje/ebean/2.8.1/ebean-2.8.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bukkit:bukkit:1.8-R0.1-SNAPSHOT">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/bukkit/bukkit/1.8-R0.1-SNAPSHOT/bukkit-1.8-R0.1-SNAPSHOT.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/bukkit/bukkit/1.8-R0.1-SNAPSHOT/bukkit-1.8-R0.1-SNAPSHOT-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/bukkit/bukkit/1.8-R0.1-SNAPSHOT/bukkit-1.8-R0.1-SNAPSHOT-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.hamcrest:hamcrest-core:1.1">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: org.mcstats.bukkit:metrics:R7">
@@ -205,6 +282,24 @@
       <SOURCES>
         <root url="jar://$MAVEN_REPOSITORY$/org/mcstats/bukkit/metrics/R7/metrics-R7-sources.jar!/" />
       </SOURCES>
+    </library>
+    <library name="Maven: org.yaml:snakeyaml:1.14">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/yaml/snakeyaml/1.14/snakeyaml-1.14.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/yaml/snakeyaml/1.14/snakeyaml-1.14-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/yaml/snakeyaml/1.14/snakeyaml-1.14-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="TitleAPI">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/Desktop/TitleAPI.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
     </library>
   </component>
 </project>

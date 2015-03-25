@@ -1,5 +1,6 @@
 package com.criliscraft.plugin.util;
 
+import com.criliscraft.plugin.api.Title;
 import org.bukkit.ChatColor;
 import org.bukkit.Sound;
 import org.bukkit.entity.Player;
@@ -33,7 +34,10 @@ public class Info {
     public static final String CM = "" + ChatColor.STRIKETHROUGH;
     public static final String CR = "" + ChatColor.RESET;
     public static void noPerms(Player player) {
-        player.sendMessage(Info.NO_PERMS);
+        Title title = new Title("No Perms!", "so... have some effects >:)");
+        title.setTitleColor(ChatColor.DARK_RED);
+        title.setSubtitleColor(ChatColor.DARK_RED);
+        title.send(player);
         player.addPotionEffect(new PotionEffect(PotionEffectType.CONFUSION, 100, 2));
         player.addPotionEffect(new PotionEffect(PotionEffectType.BLINDNESS, 100, 2));
         player.addPotionEffect(new PotionEffect(PotionEffectType.SLOW, 100, 2));

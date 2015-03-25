@@ -12,6 +12,10 @@ public class Perms {
     static public Permission clcHelp = new Permission("clc.cmd.help");
     static public Permission clcBuy = new Permission("clc.cmd.buy");
     static public Permission clcMetaItem = new Permission("clc.cmd.metaitem");
+    static public Permission clcDie = new Permission("clc.cmd.die");
+    static public Permission clcTitleTest = new Permission("clc.cmd.titletest");
+    static public Permission clcClearInv = new Permission("clc.cmd.ci");
+    static public Permission clcPartiesGeneral = new Permission("clc.party.general");
 
     //Kits
     static public Permission clcKit = new Permission("clc.cmd.kit");

@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.criliscraft.plugin</groupId>
   <artifactId>CriLisCraft</artifactId>
-  <version>1.9.14-R0.2-SNAPSHOT</version>
+  <version>1.9.16-R0.1-SNAPSHOT</version>
   <build>
     <plugins>
       <plugin>
@@ -42,8 +42,8 @@
   </build>
   <repositories>
     <repository>
-      <id>bukkit-repo</id>
-      <url>http://repo.bukkit.org/content/groups/public/</url>
+      <id>spigot-nexus</id>
+      <url>https://hub.spigotmc.org/nexus/content/groups/public/</url>
     </repository>
     <repository>
       <id>Plugin Metrics</id>
@@ -54,8 +54,30 @@
     <dependency>
       <groupId>org.bukkit</groupId>
       <artifactId>bukkit</artifactId>
-      <version>1.7.9-R0.2</version>
+      <version>1.8-R0.1-SNAPSHOT</version>
       <scope>provided</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>commons-lang</artifactId>
+          <groupId>commons-lang</groupId>
+        </exclusion>
+        <exclusion>
+          <artifactId>json-simple</artifactId>
+          <groupId>com.googlecode.json-simple</groupId>
+        </exclusion>
+        <exclusion>
+          <artifactId>guava</artifactId>
+          <groupId>com.google.guava</groupId>
+        </exclusion>
+        <exclusion>
+          <artifactId>ebean</artifactId>
+          <groupId>org.avaje</groupId>
+        </exclusion>
+        <exclusion>
+          <artifactId>snakeyaml</artifactId>
+          <groupId>org.yaml</groupId>
+        </exclusion>
+      </exclusions>
     </dependency>
   </dependencies>
 </project>

@@ -1,6 +1,7 @@
 name: CriLisCraft
 main: com.criliscraft.plugin.CriLisCraft
-version: 1.9.14-R0.2-SNAPSHOT
+author: Chaka
+version: 1.9.16-R0.1-SNAPSHOT
 commands:
    clc:
       description: The Main Command
@@ -19,4 +20,16 @@ commands:
       usage: /<command>
    metaitem:
       description: Meta ItemStack
+      usage: /<command>
+   die:
+      description: An Amazing Death
+      usage: /<command>
+   titletest:
+      description: Testing titles
+      usage: /<command>
+   ci:
+      description: Clears the players inventory
+      usage: /<command>
+   stopannounce:
+      description: Stop Announce
       usage: /<command>

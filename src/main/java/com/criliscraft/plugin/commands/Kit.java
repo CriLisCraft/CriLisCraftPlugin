@@ -40,6 +40,10 @@ public class Kit implements CommandExecutor {
             } else if (length == 1 && args[0].equalsIgnoreCase("chaka")) {
                 if (player.hasPermission(Perms.clcKitChaka)) {
                     PlayerInventory inv = player.getInventory();
+
+                    ItemStack itemhead = new ItemStack(Material.SKULL_ITEM);
+                    ItemMeta meta2 = itemhead.getItemMeta();
+
                     ItemStack item = new ItemStack(Material.DIAMOND_SWORD);
                     ItemMeta meta = item.getItemMeta();
                     meta.setDisplayName("Chaka Sword");
@@ -66,7 +70,6 @@ public class Kit implements CommandExecutor {
                     meta.setLore(Arrays.asList("The bow of the great Lord Legeis"));
                     meta.addEnchant(Enchantment.ARROW_DAMAGE, 10, true);
                     meta.addEnchant(Enchantment.ARROW_FIRE, 8, true);
-                    meta.addEnchant(Enchantment.ARROW_KNOCKBACK, 10, true);
                     meta.addEnchant(Enchantment.ARROW_INFINITE, 1, true);
                     meta.addEnchant(Enchantment.DURABILITY, 10, true);
                     item.setItemMeta(meta);

@@ -25,6 +25,7 @@ public class Buy implements CommandExecutor {
             } else {
                 Info.noPerms(player);
             }
+            return true;
         }
         return false;
     }
