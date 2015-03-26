@@ -1,6 +1,7 @@
 package com.criliscraft.plugin.commands;
 
 import com.criliscraft.plugin.CriLisCraft;
+import com.criliscraft.plugin.util.Perms;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
@@ -17,7 +18,9 @@ public class Rank implements CommandExecutor {
     public boolean onCommand(CommandSender sender, Command cmd, String s, String[] args) {
         if (cmd.getName().equalsIgnoreCase("rank") && sender instanceof Player) {
             Player player = (Player) sender;
-                
+                if (player.hasPermission(Perms.clcRank)) {
+                    
+                }
             return true;
         }
         return false;

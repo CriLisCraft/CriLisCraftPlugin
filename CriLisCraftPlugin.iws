@@ -5,128 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f98c56cf-e513-44ed-a371-58e6bd7de4ed" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/commands/Rank.java" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\Parties.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\criliscraft\plugin\listeners\PartyListener.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\criliscraft\plugin\party\Party.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\MCCore.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\chat\Chat.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\chat\ChatCommander.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\chat\ChatData.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\chat\ChatListener.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\chat\ChatNodes.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\chat\ListCommand.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\chat\NameCommand.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\chat\Prefix.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\chat\PrefixCommand.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\chat\ResetCommand.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\commands\CommandHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\commands\CommandListener.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\commands\CommandLog.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\commands\CommandManager.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\commands\ConfigurableCommand.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\commands\ICommand.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\commands\IFunction.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\commands\LogFunction.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\commands\SenderType.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\config\CommentedConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\config\CommentedLanguageConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\config\Config.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\config\ConfigSerializer.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\config\CustomFilter.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\config\ExcludeField.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\config\Filter.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\config\FilterType.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\config\ISavable.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\config\LanguageConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\config\LocationData.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\config\Resources.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\config\SerializableField.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\config\parse\DataSection.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\config\parse\YAMLParser.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\economy\Account.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\economy\Bank.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\economy\Economy.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\economy\EconomyPlugin.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\enchant\Enchants.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\event\EquipListener.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\event\ItemGainDurabilityEvent.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\event\ItemLoseDurabilityEvent.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\event\PlayerEquipEvent.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\event\PlayerMoneyChangedEvent.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\event\PlayerUnequipEvent.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\gui\MapBuffer.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\gui\MapData.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\gui\MapFont.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\gui\MapImage.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\gui\MapImageManager.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\gui\MapListener.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\gui\MapMenu.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\gui\MapMenuManager.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\items\Durability.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\items\DurabilityListener.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\items\InventoryManager.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\items\ItemManager.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\items\SplashPotion.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\log\DebugManager.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\mobs\MobManager.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\player\PlayerUUIDs.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\player\Protection.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\player\TargetHelper.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\reflect\Particle.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\reflect\ParticleType.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\reflect\Reflection.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\region\BorderIterator.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\region\Cuboid.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\region\Region.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\region\RegionIterator.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\region\Sphere.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\scoreboard\Board.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\scoreboard\BoardListener.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\scoreboard\BoardManager.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\scoreboard\CycleCommand.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\scoreboard\CycleTask.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\scoreboard\ListCommand.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\scoreboard\PlayerBoards.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\scoreboard\ScoreboardCommander.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\scoreboard\ScoreboardNodes.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\scoreboard\ShowCommand.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\scoreboard\StatBoard.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\scoreboard\StatHolder.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\scoreboard\StopCommand.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\scoreboard\Team.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\scoreboard\TextBoard.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\scoreboard\UpdateTask.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\sql\ColumnType.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\sql\direct\ISQLEntryData.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\sql\direct\SQLDatabase.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\sql\direct\SQLEntry.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\sql\direct\SQLTable.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\text\PageManager.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\text\TextAlignment.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\text\TextFormatter.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\text\TextSizer.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\text\TextSplitter.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\text\TypeChecker.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\version\ServerType.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\version\VersionManager.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\rit\sucy\version\VersionPlayer.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/criliscraft/plugin/CriLisCraft.class" afterPath="$PROJECT_DIR$/target/classes/com/criliscraft/plugin/CriLisCraft.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/criliscraft/plugin/util/Perms.class" afterPath="$PROJECT_DIR$/target/classes/com/criliscraft/plugin/util/Perms.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/criliscraft/plugin/listeners/PlayerListener.class" afterPath="$PROJECT_DIR$/target/classes/com/criliscraft/plugin/listeners/PlayerListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/criliscraft/plugin/commands/StopAnnounce.class" afterPath="$PROJECT_DIR$/target/classes/com/criliscraft/plugin/commands/StopAnnounce.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/CriLisCraft.java" afterPath="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/CriLisCraft.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CriLisCraftPlugin.iml" afterPath="$PROJECT_DIR$/CriLisCraftPlugin.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CriLisCraftPlugin.ipr" afterPath="$PROJECT_DIR$/CriLisCraftPlugin.ipr" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CriLisCraftPlugin.iws" afterPath="$PROJECT_DIR$/CriLisCraftPlugin.iws" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/util/Perms.java" afterPath="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/util/Perms.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/listeners/PlayerListener.java" afterPath="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/listeners/PlayerListener.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/commands/StopAnnounce.java" afterPath="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/commands/StopAnnounce.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dependency-reduced-pom.xml" afterPath="$PROJECT_DIR$/dependency-reduced-pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/plugin.yml" afterPath="$PROJECT_DIR$/target/classes/plugin.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/commands/Rank.java" afterPath="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/commands/Rank.java" />
     </list>
     <ignored path="CriLisCraftPlugin.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -184,15 +65,25 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Perms.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/util/Perms.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
+              <caret line="35" column="77" selection-start-line="35" selection-start-column="77" selection-end-line="35" selection-end-column="77" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Rank.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/commands/Rank.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.46142858" vertical-offset="0" max-vertical-offset="700">
-              <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.51" vertical-offset="0" max-vertical-offset="700">
+              <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#353#354#0" expanded="true" />
-                <element signature="e#381#382#0" expanded="true" />
+                <element signature="e#395#396#0" expanded="true" />
+                <element signature="e#423#424#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -238,9 +129,9 @@
         <option value="$PROJECT_DIR$/src/main/resources/plugin.yml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/listeners/PlayerListener.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/util/Perms.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/commands/ranks/Guest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/CriLisCraft.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/util/Perms.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/commands/Rank.java" />
       </list>
     </option>
@@ -374,24 +265,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="listeners" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CriLisCraftPlugin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CriLisCraftPlugin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.criliscraft.plugin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="commands" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -635,8 +508,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -647,7 +520,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24111111" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21212122" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21212122" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12846482" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1061,14 +934,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/util/Perms.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.79532164" vertical-offset="0" max-vertical-offset="684">
-          <caret line="32" column="74" selection-start-line="32" selection-start-column="74" selection-end-line="32" selection-end-column="74" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/ru/tehkode/PermissionsEx/1.22/PermissionsEx-1.22.jar!/ru/tehkode/permissions/PermissionGroup.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.15789473" vertical-offset="0" max-vertical-offset="4352">
@@ -1103,14 +968,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/util/Perms.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
+          <caret line="35" column="77" selection-start-line="35" selection-start-column="77" selection-end-line="35" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/commands/Rank.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46142858" vertical-offset="0" max-vertical-offset="700">
-          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.51" vertical-offset="0" max-vertical-offset="700">
+          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#353#354#0" expanded="true" />
-            <element signature="e#381#382#0" expanded="true" />
+            <element signature="e#395#396#0" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -29,6 +29,9 @@ public class Perms {
     static public Permission clcKitTier4 = new Permission("clc.kit.tier4");
     static public Permission clcKitTier5 = new Permission("clc.kit.tier5");
 
-    //
-    static public Permission clcRankGuest = new Permission("clc.rank.guest");
+    //Ranks
+    static public Permission clcRank = new Permission("clc.cmd.rank");
+    static public Permission clcRankPromote = new Permission("clc.cmd.rank.promote");
+    static public Permission clcRankDemote = new Permission("clc.cmd.rank.demote");
+    static public Permission clcRankSet = new Permission("clc.cmd.rank.set");
 }
