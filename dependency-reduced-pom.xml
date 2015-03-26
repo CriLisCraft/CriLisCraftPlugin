@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.criliscraft.plugin</groupId>
   <artifactId>CriLisCraft</artifactId>
-  <version>1.9.16-R0.1-SNAPSHOT</version>
+  <version>1.9.16-R0.4-SNAPSHOT</version>
   <build>
     <plugins>
       <plugin>

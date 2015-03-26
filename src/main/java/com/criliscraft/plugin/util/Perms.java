@@ -15,7 +15,7 @@ public class Perms {
     static public Permission clcDie = new Permission("clc.cmd.die");
     static public Permission clcTitleTest = new Permission("clc.cmd.titletest");
     static public Permission clcClearInv = new Permission("clc.cmd.ci");
-    static public Permission clcPartiesGeneral = new Permission("clc.party.general");
+    static public Permission clcStopAnnounce = new Permission("clc.cmd.stopannounce");
 
     //Kits
     static public Permission clcKit = new Permission("clc.cmd.kit");
@@ -28,4 +28,7 @@ public class Perms {
     static public Permission clcKitTier3 = new Permission("clc.kit.tier3");
     static public Permission clcKitTier4 = new Permission("clc.kit.tier4");
     static public Permission clcKitTier5 = new Permission("clc.kit.tier5");
+
+    //
+    static public Permission clcRankGuest = new Permission("clc.rank.guest");
 }

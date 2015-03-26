@@ -19,14 +19,6 @@ public class PlayerListener implements Listener {
         Player player = e.getPlayer();
         if (!player.hasPlayedBefore()) {
             e.setJoinMessage(ChatColor.DARK_PURPLE + "[WELCOME] " + ChatColor.LIGHT_PURPLE + "Welcome, " + ChatColor.DARK_AQUA + player.getName() + ChatColor.LIGHT_PURPLE + ", to the server!");
-            player.teleport(new Location(player.getWorld(), 105, 45, 98));
         }
-        if (player.hasPermission("clc.creativeonjoin")) {
-            player.setGameMode(GameMode.CREATIVE);
-            player.sendMessage(Info.CHAT_PREFIX + "Your gamemode has been updated.");
-        }
-    }
-    public void onPlayer(PlayerAchievementAwardedEvent e) {
-        Player player = e.getPlayer();
     }
 }
