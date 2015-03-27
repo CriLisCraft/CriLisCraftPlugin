@@ -1,7 +1,8 @@
 name: CriLisCraft
 main: com.criliscraft.plugin.CriLisCraft
 author: Chaka
-version: 1.9.16-R0.4-SNAPSHOT
+depend: [PermissionsEx]
+version: 1.9.17-R0.6-SNAPSHOT
 commands:
    clc:
       description: The Main Command
@@ -32,4 +33,13 @@ commands:
       usage: /<command>
    stopannounce:
       description: Stop Announce
+      usage: /<command>
+   promote:
+      description: Server Promote Command
+      usage: /<command>
+   demote:
+      description: Server Demote Command
+      usage: /<command>
+   set:
+      description: Server Set Rank Command
       usage: /<command>

@@ -1,1 +1,16 @@
-{"rank": ["promote": "user"], ["demote": "user"], ["set": "user", "rank"]}
+{
+    "rank": {
+        "promote": [
+            "player"
+        ],
+        "demote": [
+            "player"
+        ],
+        "set": [
+            "player", "group"
+        ],
+        "help": [
+            "null"
+        ]
+    }
+}

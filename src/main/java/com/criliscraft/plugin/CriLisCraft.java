@@ -1,6 +1,9 @@
 package com.criliscraft.plugin;
 
 import com.criliscraft.plugin.commands.*;
+import com.criliscraft.plugin.commands.rank.Demote;
+import com.criliscraft.plugin.commands.rank.Promote;
+import com.criliscraft.plugin.commands.rank.Set;
 import com.criliscraft.plugin.listeners.BlockListener;
 import com.criliscraft.plugin.listeners.PlayerListener;
 import com.criliscraft.plugin.util.Perms;
@@ -49,6 +52,9 @@ public class CriLisCraft extends JavaPlugin {
         pm.addPermission(Perms.clcMetaItem);
         pm.addPermission(Perms.clcDie);
         pm.addPermission(Perms.clcStopAnnounce);
+        pm.addPermission(Perms.clcRankDemote);
+        pm.addPermission(Perms.clcRankPromote);
+        pm.addPermission(Perms.clcRankSet);
 
         //Commands
         this.getCommand("clc").setExecutor(new CLC(this));
@@ -61,6 +67,9 @@ public class CriLisCraft extends JavaPlugin {
         this.getCommand("titletest").setExecutor(new TitleTest(this));
         this.getCommand("ci").setExecutor(new ClearInv(this));
         this.getCommand("stopannounce").setExecutor(new StopAnnounce(this));
+        this.getCommand("promote").setExecutor(new Promote(this));
+        this.getCommand("demote").setExecutor(new Demote(this));
+        this.getCommand("set").setExecutor(new Set(this));
 
         saveConfig();
 
