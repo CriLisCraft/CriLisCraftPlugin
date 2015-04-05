@@ -55,6 +55,7 @@ public class CriLisCraft extends JavaPlugin {
         pm.addPermission(Perms.clcRankDemote);
         pm.addPermission(Perms.clcRankPromote);
         pm.addPermission(Perms.clcRankSet);
+        pm.addPermission(Perms.clcPotion);
 
         //Commands
         this.getCommand("clc").setExecutor(new CLC(this));
@@ -70,6 +71,7 @@ public class CriLisCraft extends JavaPlugin {
         this.getCommand("promote").setExecutor(new Promote(this));
         this.getCommand("demote").setExecutor(new Demote(this));
         this.getCommand("set").setExecutor(new Set(this));
+        this.getCommand("potion").setExecutor(new Potion(this));
 
         saveConfig();
 

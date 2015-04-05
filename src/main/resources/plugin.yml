@@ -2,7 +2,7 @@ name: CriLisCraft
 main: com.criliscraft.plugin.CriLisCraft
 author: Chaka
 depend: [PermissionsEx]
-version: 1.9.17-R0.6-SNAPSHOT
+version: 1.9.18-SNAPSHOT
 commands:
    clc:
       description: The Main Command
@@ -42,4 +42,7 @@ commands:
       usage: /<command>
    set:
       description: Server Set Rank Command
+      usage: /<command>
+   potion:
+      description: Server Potion Command
       usage: /<command>
