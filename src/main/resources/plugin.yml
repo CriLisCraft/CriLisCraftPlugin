@@ -2,7 +2,7 @@ name: CriLisCraft
 main: com.criliscraft.plugin.CriLisCraft
 author: Chaka
 depend: [PermissionsEx]
-version: 1.9.18-SNAPSHOT
+version: 1.10.2-SNAPSHOT
 commands:
    clc:
       description: The Main Command

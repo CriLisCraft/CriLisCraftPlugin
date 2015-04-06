@@ -1,6 +1,7 @@
 package com.criliscraft.plugin.util;
 
 import com.criliscraft.plugin.api.Title;
+import com.criliscraft.plugin.api.chat.Color;
 import org.bukkit.ChatColor;
 import org.bukkit.Sound;
 import org.bukkit.entity.Player;
@@ -8,7 +9,7 @@ import org.bukkit.potion.PotionEffect;
 import org.bukkit.potion.PotionEffectType;
 
 public class Info {
-    public static final String CHAT_PREFIX = "[" + ChatColor.DARK_BLUE + "Cri" + ChatColor.DARK_PURPLE + "Lis " + ChatColor.DARK_GREEN + "Craft" + ChatColor.WHITE + "] " + ChatColor.GREEN;
+    public static final String CHAT_PREFIX = "[" + Color.c(1) + "Cri" + Color.c(5) + "Lis " + Color.c(2) + "Craft" + Color.c("f") + "] " + Color.c("a");
     public static final String NO_PERMS = "[" + ChatColor.DARK_BLUE + "Cri" + ChatColor.DARK_PURPLE + "Lis " + ChatColor.DARK_GREEN + "Craft" + ChatColor.WHITE + "] " + ChatColor.DARK_RED + "Oh man, Im feeling sick.  Maybe I shouldn't type that command again...";
     public static final String NO_PERMS_PLACE = "[" + ChatColor.DARK_BLUE + "Cri" + ChatColor.DARK_PURPLE + "Lis " + ChatColor.DARK_GREEN + "Craft" + ChatColor.WHITE + "] " + ChatColor.DARK_RED + "You do not have permission to place, " + ChatColor.RED;
     public static final String C1 = "" + ChatColor.DARK_BLUE;
@@ -38,10 +39,14 @@ public class Info {
         title.setTitleColor(ChatColor.DARK_RED);
         title.setSubtitleColor(ChatColor.DARK_RED);
         title.send(player);
+        player.sendMessage("sasd");
         player.addPotionEffect(new PotionEffect(PotionEffectType.CONFUSION, 100, 2));
         player.addPotionEffect(new PotionEffect(PotionEffectType.BLINDNESS, 100, 2));
         player.addPotionEffect(new PotionEffect(PotionEffectType.SLOW, 100, 2));
         player.addPotionEffect(new PotionEffect(PotionEffectType.WEAKNESS, 100, 2));
         player.playSound(player.getLocation(), Sound.GHAST_FIREBALL, 1, 1);
+    }
+    public static void deathLocMessage(Player player, int x, int y, int z, String world) {
+        player.sendMessage(CHAT_PREFIX + "You have died at, " + C3 + x + CA +  ", " + C3 + y + CA + ", " + C3 + z + CA + ", In world, " + C3 + world + CA + ".");
     }
 }

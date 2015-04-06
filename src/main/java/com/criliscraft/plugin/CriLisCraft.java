@@ -7,6 +7,7 @@ import com.criliscraft.plugin.commands.rank.Set;
 import com.criliscraft.plugin.listeners.BlockListener;
 import com.criliscraft.plugin.listeners.PlayerListener;
 import com.criliscraft.plugin.util.Perms;
+import com.criliscraft.plugin.util.Signs;
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.mcstats.Metrics;

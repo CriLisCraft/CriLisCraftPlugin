@@ -15,6 +15,7 @@ com\criliscraft\plugin\api\Title.class
 com\criliscraft\plugin\commands\ClearInv.class
 com\criliscraft\plugin\commands\Buy.class
 com\criliscraft\plugin\commands\rank\Promote.class
+com\criliscraft\plugin\commands\Potion.class
 com\criliscraft\plugin\commands\rank\Demote.class
 com\criliscraft\plugin\util\Info.class
 com\criliscraft\plugin\commands\MetaItem.class

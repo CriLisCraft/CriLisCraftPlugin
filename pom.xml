@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.criliscraft.plugin</groupId>
     <artifactId>CriLisCraft</artifactId>
-    <version>1.9.18-SNAPSHOT</version>
+    <version>1.10.2-SNAPSHOT</version>
     <build>
         <plugins>
             <plugin>
@@ -57,6 +57,14 @@
             <id>pex-repo</id>
             <url>http://pex-repo.zachsthings.com</url>
         </repository>
+        <repository>
+            <id>fanciful-mvn-repo</id>
+            <url>http://repo.franga2000.com/artifactory/public</url>
+            <snapshots>
+                <enabled>true</enabled>
+                <updatePolicy>always</updatePolicy>
+            </snapshots>
+        </repository>
     </repositories>
     <dependencies>
         <dependency>
@@ -76,6 +84,11 @@
             <artifactId>metrics</artifactId>
             <version>R7</version>
             <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>mkremins</groupId>
+            <artifactId>fanciful</artifactId>
+            <version>0.3.1</version>
         </dependency>
     </dependencies>
 </project>

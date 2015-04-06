@@ -26,5 +26,7 @@
     <orderEntry type="library" name="Maven: commons-pool:commons-pool:1.5.4" level="project" />
     <orderEntry type="library" name="Maven: net.gravitydevelopment.updater:updater:2.3" level="project" />
     <orderEntry type="library" name="Maven: org.mcstats.bukkit:metrics:R7" level="project" />
+    <orderEntry type="library" name="Maven: mkremins:fanciful:0.3.1" level="project" />
+    <orderEntry type="library" name="Maven: com.google.code.gson:gson:2.1" level="project" />
   </component>
 </module>
