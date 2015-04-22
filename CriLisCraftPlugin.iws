@@ -1,30 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/commands/StopAnnounce.java" line="88" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="f98c56cf-e513-44ed-a371-58e6bd7de4ed" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/api/chat/Color.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/api/chat/Returns.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/util/Signs.java" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\rankCommand.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\criliscraft\plugin\commands\Buy.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\criliscraft\plugin\commands\ClearInv.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\criliscraft\plugin\commands\MetaItem.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\criliscraft\plugin\commands\Potion.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\criliscraft\plugin\commands\Random.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\criliscraft\plugin\commands\StopAnnounce.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\criliscraft\plugin\commands\TitleTest.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\criliscraft\plugin\commands\rank\Demote.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\criliscraft\plugin\commands\rank\Promote.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\criliscraft\plugin\commands\rank\Set.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\criliscraft\plugin\listeners\EntityListener.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\criliscraft\plugin\util\Info.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\criliscraft\plugin\util\Signs.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\classes\com\criliscraft\plugin\commands\Buy.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\classes\com\criliscraft\plugin\commands\ClearInv.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\classes\com\criliscraft\plugin\commands\MetaItem.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\classes\com\criliscraft\plugin\commands\Potion.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\classes\com\criliscraft\plugin\commands\Random.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\classes\com\criliscraft\plugin\commands\StopAnnounce.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\classes\com\criliscraft\plugin\commands\TitleTest.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\classes\com\criliscraft\plugin\commands\rank\Demote.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\classes\com\criliscraft\plugin\commands\rank\Promote.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\classes\com\criliscraft\plugin\commands\rank\Set.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\classes\com\criliscraft\plugin\listeners\EntityListener.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\classes\com\criliscraft\plugin\util\Info.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/criliscraft/plugin/listeners/BlockListener.class" afterPath="$PROJECT_DIR$/target/classes/com/criliscraft/plugin/listeners/BlockListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/criliscraft/plugin/commands/CLC.class" afterPath="$PROJECT_DIR$/target/classes/com/criliscraft/plugin/commands/CLC.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/criliscraft/plugin/CriLisCraft.class" afterPath="$PROJECT_DIR$/target/classes/com/criliscraft/plugin/CriLisCraft.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/criliscraft/plugin/util/Info.class" afterPath="$PROJECT_DIR$/target/classes/com/criliscraft/plugin/util/Info.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/criliscraft/plugin/commands/Die.class" afterPath="$PROJECT_DIR$/target/classes/com/criliscraft/plugin/commands/Die.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/criliscraft/plugin/commands/Hat.class" afterPath="$PROJECT_DIR$/target/classes/com/criliscraft/plugin/commands/Hat.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/criliscraft/plugin/commands/Kit.class" afterPath="$PROJECT_DIR$/target/classes/com/criliscraft/plugin/commands/Kit.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/criliscraft/plugin/util/Perms.class" afterPath="$PROJECT_DIR$/target/classes/com/criliscraft/plugin/util/Perms.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/criliscraft/plugin/listeners/PlayerListener.class" afterPath="$PROJECT_DIR$/target/classes/com/criliscraft/plugin/listeners/PlayerListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/listeners/BlockListener.java" afterPath="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/listeners/BlockListener.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/commands/CLC.java" afterPath="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/commands/CLC.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/CriLisCraft.java" afterPath="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/CriLisCraft.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CriLisCraftPlugin.iml" afterPath="$PROJECT_DIR$/CriLisCraftPlugin.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CriLisCraftPlugin.ipr" afterPath="$PROJECT_DIR$/CriLisCraftPlugin.ipr" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CriLisCraftPlugin.iws" afterPath="$PROJECT_DIR$/CriLisCraftPlugin.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/util/Info.java" afterPath="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/util/Info.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/commands/Hat.java" afterPath="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/commands/Hat.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/commands/Kit.java" afterPath="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/commands/Kit.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/util/Perms.java" afterPath="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/util/Perms.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/listeners/PlayerListener.java" afterPath="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/listeners/PlayerListener.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/api/chat/Returns.java" afterPath="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/api/chat/Returns.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dependency-reduced-pom.xml" afterPath="$PROJECT_DIR$/dependency-reduced-pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/plugin.yml" afterPath="$PROJECT_DIR$/target/classes/plugin.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MOVED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\criliscraft\plugin\commands\DIE.java" afterPath="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/commands/Die.java" />
     </list>
     <ignored path="CriLisCraftPlugin.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,20 +67,17 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="DaemonCodeAnalyzer">
-    <disable_hints />
-  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="CriLisCraftPlugin" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="702" max-vertical-offset="1683">
-              <caret line="82" column="49" selection-start-line="82" selection-start-column="49" selection-end-line="82" selection-end-column="49" />
+            <state vertical-scroll-proportion="0.20950705">
+              <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -63,8 +86,8 @@
       <file leaf-file-name="plugin.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/plugin.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="5" max-vertical-offset="901">
-              <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -73,41 +96,31 @@
       <file leaf-file-name="CriLisCraft.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/CriLisCraft.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="651" max-vertical-offset="1564">
-              <caret line="74" column="64" selection-start-line="74" selection-start-column="64" selection-end-line="74" selection-end-column="64" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Info.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/util/Info.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="986">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Returns.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/api/chat/Returns.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.1328125" vertical-offset="0" max-vertical-offset="896">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -120,16 +133,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/commands/CMDHelp.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/util/Permissions.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/commands/CMDclc.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/commands/Hat.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/commands/Random.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/util/Items.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/commands/MetaItem.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/commands/CLC.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/commands/Buy.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/api/CommandExecutor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/listeners/BlockListener.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/api/BlockAPI.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/commands/Kit.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/api/TitleAPI.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/Tmp.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/util/Title.java" />
@@ -141,23 +150,27 @@
         <option value="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/commands/StopAnnounce.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/commands/ranks/Guest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/commands/DIE.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/commands/Die.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/commands/Rank.java" />
         <option value="$PROJECT_DIR$/rankCommand.json" />
         <option value="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/commands/rank/Promote.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/commands/rank/Demote.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/commands/rank/Set.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/util/Perms.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/commands/Potion.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/plugin.yml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/listeners/PlayerListener.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/util/Signs.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/CriLisCraft.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/api/chat/Colors.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/api/chat/Color.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/util/Perms.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/util/Signs.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/util/Info.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/listeners/PlayerListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/commands/Kit.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/commands/Hat.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/listeners/BlockListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/commands/CLC.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/commands/Die.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/api/chat/Returns.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/CriLisCraft.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/plugin.yml" />
       </list>
     </option>
   </component>
@@ -201,6 +214,9 @@
       </PATH>
     </treeState>
   </component>
+  <component name="NamedScopeManager">
+    <order />
+  </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
@@ -230,26 +246,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CriLisCraftPlugin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CriLisCraftPlugin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CriLisCraftPlugin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane">
         <subPane>
           <PATH>
@@ -308,6 +305,42 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="listeners" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CriLisCraftPlugin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CriLisCraftPlugin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.criliscraft.plugin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="commands" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CriLisCraftPlugin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CriLisCraftPlugin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.criliscraft.plugin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="api" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
@@ -336,7 +369,27 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CriLisCraftPlugin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CriLisCraftPlugin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CriLisCraftPlugin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -364,33 +417,10 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
       <method />
     </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -434,6 +464,30 @@
       <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -450,23 +504,30 @@
       </ExternalSystemSettings>
       <method />
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
@@ -491,24 +552,12 @@
       </MavenSettings>
       <method />
     </configuration>
-    <configuration default="true" type="JarApplication" factoryName="JAR Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -539,7 +588,6 @@
       <listeners />
       <method />
     </configuration>
-    <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration">
@@ -556,31 +604,31 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3560606" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13113007" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13539445" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3560606" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35567567" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1673774" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -622,13 +670,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <option name="myTodoPanelSettings">
-      <TodoPanelSettings />
-    </option>
-  </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -638,383 +683,253 @@
   <component name="editorHistoryManager">
     <entry file="jar://$MAVEN_REPOSITORY$/org/bukkit/bukkit/1.7.9-R0.2/bukkit-1.7.9-R0.2.jar!/org/bukkit/Location.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37833038" vertical-offset="42" max-vertical-offset="3774">
+        <state vertical-scroll-proportion="0.37833038">
           <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/bukkit/bukkit/1.7.9-R0.2/bukkit-1.7.9-R0.2.jar!/org/bukkit/plugin/java/JavaPlugin.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="7.3070173" vertical-offset="0" max-vertical-offset="5712">
+        <state vertical-scroll-proportion="7.3070173">
           <caret line="306" column="19" selection-start-line="306" selection-start-column="19" selection-end-line="306" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/bukkit/bukkit/1.7.9-R0.2/bukkit-1.7.9-R0.2.jar!/org/bukkit/material/MaterialData.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17801048" vertical-offset="0" max-vertical-offset="1241">
+        <state vertical-scroll-proportion="0.17801048">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/bukkit/bukkit/1.7.9-R0.2/bukkit-1.7.9-R0.2.jar!/org/bukkit/Material.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34729493" vertical-offset="6465" max-vertical-offset="17850">
+        <state vertical-scroll-proportion="0.34729493">
           <caret line="463" column="35" selection-start-line="463" selection-start-column="35" selection-end-line="463" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/bukkit/bukkit/1.7.9-R0.2/bukkit-1.7.9-R0.2.jar!/org/bukkit/inventory/meta/ItemMeta.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.08" vertical-offset="0" max-vertical-offset="697">
+        <state vertical-scroll-proportion="-4.08">
           <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_71/src.zip!/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.26421404" vertical-offset="1603" max-vertical-offset="9911">
+        <state vertical-scroll-proportion="-0.26421404">
           <caret line="108" column="17" selection-start-line="108" selection-start-column="17" selection-end-line="108" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/bukkit/bukkit/1.7.9-R0.2/bukkit-1.7.9-R0.2.jar!/org/bukkit/enchantments/Enchantment.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.5130891" vertical-offset="969" max-vertical-offset="1751">
+        <state vertical-scroll-proportion="-1.5130891">
           <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/bukkit/bukkit/1.7.9-R0.2/bukkit-1.7.9-R0.2.jar!/org/bukkit/block/Beacon.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17801048" vertical-offset="0" max-vertical-offset="573">
+        <state vertical-scroll-proportion="0.17801048">
           <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_71/jre/lib/rt.jar!/sun/org/mozilla/javascript/internal/ast/IfStatement.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.07692308" vertical-offset="153" max-vertical-offset="1870">
+        <state vertical-scroll-proportion="-0.07692308">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/bukkit/bukkit/1.7.9-R0.2/bukkit-1.7.9-R0.2.jar!/org/bukkit/command/CommandExecutor.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.116972476" vertical-offset="0" max-vertical-offset="872">
+        <state vertical-scroll-proportion="0.116972476">
           <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/listeners/BlockListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1516165" vertical-offset="0" max-vertical-offset="897">
-          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/bukkit/bukkit/1.7.9-R0.2/bukkit-1.7.9-R0.2.jar!/org/bukkit/event/block/Action.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.07798165" vertical-offset="0" max-vertical-offset="872">
+        <state vertical-scroll-proportion="0.07798165">
           <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/bukkit/bukkit/1.7.9-R0.2/bukkit-1.7.9-R0.2.jar!/org/bukkit/event/block/BlockBreakEvent.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.038990825" vertical-offset="0" max-vertical-offset="872">
+        <state vertical-scroll-proportion="0.038990825">
           <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/bukkit/bukkit/1.7.9-R0.2/bukkit-1.7.9-R0.2.jar!/org/bukkit/command/defaults/DeopCommand.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.058486238" vertical-offset="153" max-vertical-offset="1037">
+        <state vertical-scroll-proportion="-0.058486238">
           <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/bukkit/bukkit/1.7.9-R0.2/bukkit-1.7.9-R0.2.jar!/org/bukkit/command/defaults/BanCommand.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.116972476" vertical-offset="0" max-vertical-offset="872">
+        <state vertical-scroll-proportion="0.116972476">
           <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_71/jre/lib/jfxrt.jar!/javafx/animation/AnimationBuilder.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.116972476" vertical-offset="0" max-vertical-offset="1411">
+        <state vertical-scroll-proportion="0.116972476">
           <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/bukkit/bukkit/1.7.9-R0.2/bukkit-1.7.9-R0.2.jar!/org/bukkit/World.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.53784406" vertical-offset="1962" max-vertical-offset="4862">
+        <state vertical-scroll-proportion="0.53784406">
           <caret line="178" column="39" selection-start-line="178" selection-start-column="39" selection-end-line="178" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/bukkit/bukkit/1.8-R0.1-SNAPSHOT/bukkit-1.8-R0.1-SNAPSHOT.jar!/org/bukkit/plugin/Plugin.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.116972476" vertical-offset="0" max-vertical-offset="901">
+        <state vertical-scroll-proportion="0.116972476">
           <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/bukkit/bukkit/1.8-R0.1-SNAPSHOT/bukkit-1.8-R0.1-SNAPSHOT.jar!/org/bukkit/plugin/java/JavaPlugin.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.9499418" vertical-offset="918" max-vertical-offset="5678">
+        <state vertical-scroll-proportion="-0.9499418">
           <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/api/Title.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="6284" max-vertical-offset="6987">
-          <caret line="205" column="7" selection-start-line="205" selection-start-column="7" selection-end-line="205" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/listeners/EntityListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.72098213" vertical-offset="0" max-vertical-offset="896">
-          <caret line="43" column="78" selection-start-line="43" selection-start-column="78" selection-end-line="43" selection-end-column="78" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/ru/tehkode/PermissionsEx/1.22/PermissionsEx-1.22.jar!/ru/tehkode/permissions/bukkit/commands/PermissionsCommand.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.08947369" vertical-offset="204" max-vertical-offset="5967">
+        <state vertical-scroll-proportion="-0.08947369">
           <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/ru/tehkode/PermissionsEx/1.22/PermissionsEx-1.22.jar!/ru/tehkode/permissions/bukkit/commands/GroupCommands.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.7578948" vertical-offset="2244" max-vertical-offset="11254">
+        <state vertical-scroll-proportion="-3.7578948">
           <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/ru/tehkode/PermissionsEx/1.22/PermissionsEx-1.22.jar!/ru/tehkode/permissions/bukkit/commands/PromotionCommands.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.0438596" vertical-offset="918" max-vertical-offset="2703">
+        <state vertical-scroll-proportion="-1.0438596">
           <caret line="31" column="48" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/ru/tehkode/PermissionsEx/1.22/PermissionsEx-1.22.jar!/ru/tehkode/permissions/PermissionUser.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3385965" vertical-offset="3190" max-vertical-offset="7718">
+        <state vertical-scroll-proportion="0.3385965">
           <caret line="235" column="27" selection-start-line="235" selection-start-column="27" selection-end-line="235" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/bukkit/bukkit/1.8-R0.1-SNAPSHOT/bukkit-1.8-R0.1-20150227.224714-194.jar!/org/bukkit/command/Command.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.81578946" vertical-offset="1536" max-vertical-offset="3893">
+        <state vertical-scroll-proportion="-0.81578946">
           <caret line="86" column="18" selection-start-line="86" selection-start-column="18" selection-end-line="86" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/commands/rank/Promote.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.74285716" vertical-offset="34" max-vertical-offset="663">
-          <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/commands/rank/Demote.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.51428574" vertical-offset="51" max-vertical-offset="680">
-          <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/commands/rank/Set.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6571429" vertical-offset="51" max-vertical-offset="680">
-          <caret line="26" column="138" selection-start-line="26" selection-start-column="138" selection-end-line="26" selection-end-column="138" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/bukkit/bukkit/1.8-R0.1-SNAPSHOT/bukkit-1.8-R0.1-SNAPSHOT.jar!/org/bukkit/event/entity/PlayerDeathEvent.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.70264065" vertical-offset="0" max-vertical-offset="1190">
+        <state vertical-scroll-proportion="0.70264065">
           <caret line="42" column="29" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
-          <folding>
-            <element signature="e#1439#1440#0" expanded="true" />
-            <element signature="e#1481#1482#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/listeners/PlayerListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17327294" vertical-offset="0" max-vertical-offset="883">
-          <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/util/Perms.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34151787" vertical-offset="0" max-vertical-offset="896">
-          <caret line="18" column="71" selection-start-line="18" selection-start-column="71" selection-end-line="18" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/commands/ClearInv.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3794643" vertical-offset="0" max-vertical-offset="896">
-          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/commands/CLC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29799107" vertical-offset="192" max-vertical-offset="1088">
-          <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/commands/Buy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.07589286" vertical-offset="0" max-vertical-offset="896">
-          <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/commands/Die.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.094866075" vertical-offset="0" max-vertical-offset="896">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/commands/Hat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30357143" vertical-offset="0" max-vertical-offset="896">
-          <caret line="31" column="65" selection-start-line="31" selection-start-column="65" selection-end-line="31" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/commands/Kit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.51227677" vertical-offset="34" max-vertical-offset="3247">
-          <caret line="44" column="60" selection-start-line="44" selection-start-column="60" selection-end-line="44" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/commands/Random.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/commands/StopAnnounce.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1428">
-          <caret line="50" column="68" selection-start-line="50" selection-start-column="68" selection-end-line="50" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/commands/TitleTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18973215" vertical-offset="0" max-vertical-offset="896">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-          <folding>
-            <element signature="e#516#517#0" expanded="false" />
-            <element signature="e#544#545#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/commands/Potion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30357143" vertical-offset="0" max-vertical-offset="896">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/commands/MetaItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32254463" vertical-offset="0" max-vertical-offset="896">
-          <caret line="32" column="49" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="702" max-vertical-offset="1683">
-          <caret line="82" column="49" selection-start-line="82" selection-start-column="49" selection-end-line="82" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/plugin.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="5" max-vertical-offset="901">
-          <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/util/Signs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.07589286" vertical-offset="0" max-vertical-offset="896">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/bukkit/bukkit/1.8-R0.1-SNAPSHOT/bukkit-1.8-R0.1-SNAPSHOT.jar!/org/bukkit/ChatColor.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.2835821" vertical-offset="1220" max-vertical-offset="2091">
+        <state vertical-scroll-proportion="-1.2835821">
           <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/api/chat/Color.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/util/Perms.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.77790177" vertical-offset="0" max-vertical-offset="1207">
-          <caret line="41" column="40" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/CriLisCraft.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="651" max-vertical-offset="1564">
-          <caret line="74" column="64" selection-start-line="74" selection-start-column="64" selection-end-line="74" selection-end-column="64" />
+        <state vertical-scroll-proportion="0.1516165">
+          <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/util/Info.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/commands/Kit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="986">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.07580825">
+          <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/commands/Hat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.05685619">
+          <caret line="3" column="47" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/api/Title.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.8952062">
+          <caret line="205" column="7" selection-start-line="205" selection-start-column="7" selection-end-line="205" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/api/chat/Color.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7770346">
+          <caret line="41" column="40" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/listeners/BlockListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.07580825">
+          <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/listeners/PlayerListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20847268">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/commands/CLC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="48" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/commands/Die.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="80" selection-start-line="19" selection-start-column="80" selection-end-line="19" selection-end-column="80" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1023,8 +938,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/api/chat/Returns.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1328125" vertical-offset="0" max-vertical-offset="896">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="109" selection-start-line="7" selection-start-column="109" selection-end-line="7" selection-end-column="109" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/CriLisCraft.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/plugin.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20950705">
+          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
           <folding />
         </state>
       </provider>

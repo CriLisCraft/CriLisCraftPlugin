@@ -1,8 +1,8 @@
 package com.criliscraft.plugin.listeners;
 
 import com.criliscraft.plugin.CriLisCraft;
-import com.criliscraft.plugin.util.Info;
-import org.bukkit.*;
+import com.criliscraft.plugin.api.chat.*;
+import com.criliscraft.plugin.api.chat.Color;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
@@ -18,7 +18,7 @@ public class PlayerListener implements Listener {
     public void onPlayerJoin(PlayerJoinEvent e) {
         Player player = e.getPlayer();
         if (!player.hasPlayedBefore()) {
-            e.setJoinMessage(ChatColor.DARK_PURPLE + "[WELCOME] " + ChatColor.LIGHT_PURPLE + "Welcome, " + ChatColor.DARK_AQUA + player.getName() + ChatColor.LIGHT_PURPLE + ", to the server!");
+            e.setJoinMessage(Color.c(5) + "[WELCOME] " + Color.c("d") + "Welcome, " + Color.c("3") + player.getName() + Color.c("d") + ", to the server!");
         }
     }
     @EventHandler
@@ -30,6 +30,6 @@ public class PlayerListener implements Listener {
         playerDeathLoc[1] = player.getLocation().getBlockY();
         playerDeathLoc[2] = player.getLocation().getBlockZ();
         deathWorld = player.getLocation().getWorld().getName();
-        Info.deathLocMessage(player, playerDeathLoc[0], playerDeathLoc[1], playerDeathLoc[2], deathWorld);
+        Returns.deathLocMessage(player, playerDeathLoc[0], playerDeathLoc[1], playerDeathLoc[2], deathWorld);
     }
 }

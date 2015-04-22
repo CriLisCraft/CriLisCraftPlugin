@@ -1,13 +1,12 @@
 package com.criliscraft.plugin.listeners;
 
 import com.criliscraft.plugin.CriLisCraft;
-import com.criliscraft.plugin.util.Info;
-import org.bukkit.Bukkit;
+import com.criliscraft.plugin.api.chat.Returns;
+import com.criliscraft.plugin.util.Perms;
 import org.bukkit.Material;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
-import org.bukkit.event.block.BlockBreakEvent;
 import org.bukkit.event.block.BlockPlaceEvent;
 
 public class BlockListener implements Listener {
@@ -16,11 +15,11 @@ public class BlockListener implements Listener {
         pl.getServer().getPluginManager().registerEvents(this, pl);
     }
     @EventHandler
-    public void onTntPlace(BlockPlaceEvent e) {
+    public void onBlockPlace(BlockPlaceEvent e) {
         Player player = e.getPlayer();
         if (e.getBlock().getType() == Material.TNT) {
-            if (!player.hasPermission("clc.place.tnt")) {
-                player.sendMessage(Info.NO_PERMS_PLACE + e.getBlock().getType().toString());
+            if (!player.hasPermission(Perms.clcPlaceTnt)) {
+                player.sendMessage(Returns.NO_PERMS_PLACE + e.getBlock().getType().toString());
                 e.setCancelled(true);
             }
         }

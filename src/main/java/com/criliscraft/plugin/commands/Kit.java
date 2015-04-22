@@ -1,7 +1,8 @@
 package com.criliscraft.plugin.commands;
 
 import com.criliscraft.plugin.CriLisCraft;
-import com.criliscraft.plugin.util.Info;
+import com.criliscraft.plugin.api.chat.Color;
+import com.criliscraft.plugin.api.chat.Returns;
 import com.criliscraft.plugin.util.Perms;
 import org.bukkit.Material;
 import org.bukkit.command.Command;
@@ -32,9 +33,9 @@ public class Kit implements CommandExecutor {
                     PlayerInventory inv = player.getInventory();
                     inv.setItem(7, new ItemStack(Material.FEATHER));
                     inv.setItem(8, new ItemStack(Material.STICK));
-                    player.sendMessage(Info.CHAT_PREFIX + "Here is your 1337 staff kit :D");
+                    player.sendMessage(Returns.CHAT_PREFIX + "Here is your 1337 staff kit :D");
                 } else {
-                    Info.noPerms(player);
+                    player.sendMessage(Returns.NO_PERMS);
                 }
                 return true;
             } else if (length == 1 && args[0].equalsIgnoreCase("chaka")) {
@@ -56,9 +57,9 @@ public class Kit implements CommandExecutor {
                     meta.addEnchant(Enchantment.DURABILITY, 10, true);
                     item.setItemMeta(meta);
                     inv.addItem(new ItemStack(item));
-                    player.sendMessage(Info.CHAT_PREFIX + "You have been given the kit, " + Info.C3 + "CHAKA");
+                    player.sendMessage(Returns.CHAT_PREFIX + "You have been given the kit, " + Color.c(3) + "CHAKA");
                 } else {
-                    Info.noPerms(player);
+                    player.sendMessage(Returns.NO_PERMS);
                 }
                 return true;
             } else if (length == 1 && args[0].equalsIgnoreCase("legeis")) {
@@ -75,122 +76,33 @@ public class Kit implements CommandExecutor {
                     item.setItemMeta(meta);
                     inv.addItem(item);
                     inv.addItem(new ItemStack(Material.ARROW));
-                    player.sendMessage(Info.CHAT_PREFIX + "You have been given the kit, " + Info.C3 + "LEGEIS");
+                    player.sendMessage(Returns.CHAT_PREFIX + "You have been given the kit, " + Color.c(3) + "LEGEIS");
                 } else {
-                    Info.noPerms(player);
-                }
-                return true;
-            } else if (length == 1 && args[0].equalsIgnoreCase("tier1")) {
-                if (player.hasPermission(Perms.clcKitTier1)) {
-                    PlayerInventory inv = player.getInventory();
-                    ItemStack item = new ItemStack(Material.EMERALD_BLOCK);
-                    ItemMeta meta = item.getItemMeta();
-                    meta.setDisplayName("Donater Block" + Info.C3 + " Tier1");
-                    meta.setLore(Arrays.asList("The kit for Tier1"));
-                    meta.addEnchant(Enchantment.DURABILITY, 1000, true);
-                    item.setItemMeta(meta);
-                    inv.addItem(item);
-                    player.sendMessage(Info.CHAT_PREFIX + "You have been given the kit, " + Info.C3 + "TIER1");
-                } else {
-                    Info.noPerms(player);
-                }
-                return true;
-            } else if (length == 1 && args[0].equalsIgnoreCase("tier2")) {
-                if (player.hasPermission(Perms.clcKitTier2)) {
-                    PlayerInventory inv = player.getInventory();
-                    ItemStack item = new ItemStack(Material.EMERALD_BLOCK);
-                    ItemMeta meta = item.getItemMeta();
-                    meta.setDisplayName("Donater Block" + Info.C3 + " Tier2");
-                    meta.setLore(Arrays.asList("The kit for Tier2"));
-                    meta.addEnchant(Enchantment.DURABILITY, 2000, true);
-                    item.setItemMeta(meta);
-                    inv.addItem(item);
-                    player.sendMessage(Info.CHAT_PREFIX + "You have been given the kit, " + Info.C3 + "TIER2");
-                } else {
-                    Info.noPerms(player);
-                }
-            } else if (length == 1 && args[0].equalsIgnoreCase("tier3")) {
-                if (player.hasPermission(Perms.clcKitTier3)) {
-                    PlayerInventory inv = player.getInventory();
-                    ItemStack item = new ItemStack(Material.EMERALD_BLOCK);
-                    ItemMeta meta = item.getItemMeta();
-                    meta.setDisplayName("Donater Block" + Info.C3 + " Tier3");
-                    meta.setLore(Arrays.asList("The kit for Tier3"));
-                    meta.addEnchant(Enchantment.DURABILITY, 3000, true);
-                    item.setItemMeta(meta);
-                    inv.addItem(item);
-                    player.sendMessage(Info.CHAT_PREFIX + "You have been given the kit, " + Info.C3 + "TIER3");
-                } else {
-                    Info.noPerms(player);
-                }
-                return true;
-            } else if (length == 1 && args[0].equalsIgnoreCase("tier4")) {
-                if (player.hasPermission(Perms.clcKitTier4)) {
-                    PlayerInventory inv = player.getInventory();
-                    ItemStack item = new ItemStack(Material.EMERALD_BLOCK);
-                    ItemMeta meta = item.getItemMeta();
-                    meta.setDisplayName("Donater Block" + Info.C3 + " Tier4");
-                    meta.setLore(Arrays.asList("The kit for Tier4"));
-                    meta.addEnchant(Enchantment.DURABILITY, 4000, true);
-                    item.setItemMeta(meta);
-                    inv.addItem(item);
-                    player.sendMessage(Info.CHAT_PREFIX + "You have been given the kit, " + Info.C3 + "TIER4");
-                } else {
-                    Info.noPerms(player);
-                }
-                return true;
-            } else if (length == 1 && args[0].equalsIgnoreCase("tier5")) {
-                if (player.hasPermission(Perms.clcKitTier1)) {
-                    PlayerInventory inv = player.getInventory();
-                    ItemStack item = new ItemStack(Material.EMERALD_BLOCK);
-                    ItemMeta meta = item.getItemMeta();
-                    meta.setDisplayName("Donater Block" + Info.C3 + " Tier5");
-                    meta.setLore(Arrays.asList("The kit for Tier5"));
-                    meta.addEnchant(Enchantment.DURABILITY, 5000, true);
-                    item.setItemMeta(meta);
-                    inv.addItem(item);
-                    player.sendMessage(Info.CHAT_PREFIX + "You have been given the kit, " + Info.C3 + "TIER5");
-                } else {
-                    Info.noPerms(player);
+                    player.sendMessage(Returns.NO_PERMS);
                 }
                 return true;
             } else if (length == 1 && args[0].equalsIgnoreCase("list")) {
                 if (player.hasPermission(Perms.clcKitList)) {
-                    player.sendMessage(Info.CA + "--- " + Info.C3 + "Kit List" + Info.CA + " ---");
-                    player.sendMessage(Info.CC + "Use " + Info.C3 + "/kit (kitname)");
-                    player.sendMessage(Info.C3 + "LIST " + Info.CA + "- The Command you just typed :D  It should be easy to see what it does.");
+                    player.sendMessage(Color.c("a") + "--- " + Color.c(3) + "Kit List" + Color.c("a") + " ---");
+                    player.sendMessage(Color.c("c") + "Use " + Color.c(3) + "/kit <kitname>");
+                    player.sendMessage(Color.c(3) + "LIST " + Color.c("a") + "- The Command you just typed :D  It should be easy to see what it does.");
                     if (player.hasPermission(Perms.clcKitStaff)) {
-                        player.sendMessage(Info.C3 + "STAFF " + Info.CA + "- The Staff Kit");
+                        player.sendMessage(Color.c(3) + "STAFF " + Color.c("a") + "- The Staff Kit");
                     }
                     if (player.hasPermission(Perms.clcKitChaka)) {
-                        player.sendMessage(Info.C3 + "CHAKA " + Info.CA + "- The Chaka Kit");
+                        player.sendMessage(Color.c(3) + "CHAKA " + Color.c("a") + "- The Chaka Kit");
                     }
                     if (player.hasPermission(Perms.clcKitLegeis)) {
-                        player.sendMessage(Info.C3 + "LEGEIS " + Info.CA + "- The Legeis Kit");
-                    }
-                    if (player.hasPermission(Perms.clcKitTier1)) {
-                        player.sendMessage(Info.C3 + "TIER1 " + Info.CA + "- Donater Tier1 Kit");
-                    }
-                    if (player.hasPermission(Perms.clcKitTier2)) {
-                        player.sendMessage(Info.C3 + "TIER2 " + Info.CA + "- Donater Tier2 Kit");
-                    }
-                    if (player.hasPermission(Perms.clcKitTier3)) {
-                        player.sendMessage(Info.C3 + "TIER3 " + Info.CA + "- Donater Tier3 Kit");
-                    }
-                    if (player.hasPermission(Perms.clcKitTier4)) {
-                        player.sendMessage(Info.C3 + "TIER4 " + Info.CA + "- Donater Tier4 Kit");
-                    }
-                    if (player.hasPermission(Perms.clcKitTier5)) {
-                        player.sendMessage(Info.C3 + "TIER5 " + Info.CA + "- Donater Tier5 Kit");
+                        player.sendMessage(Color.c(3) + "LEGEIS " + Color.c("a") + "- The Legeis Kit");
                     }
                 } else {
-                    Info.noPerms(player);
+                    player.sendMessage(Returns.NO_PERMS);
                 }
             } else {
                 if (player.hasPermission(Perms.clcKit)) {
-                    player.sendMessage(Info.CHAT_PREFIX + "Use " + Info.C3 + "/kit list " + Info.CA + "to see the kits you can use.");
+                    player.sendMessage(Returns.CHAT_PREFIX + "Use " + Color.c(3) + "/kit list " + Color.c("a") + "to see the kits you can use.");
                 } else {
-                    Info.noPerms(player);
+                    player.sendMessage(Returns.NO_PERMS);
                 }
             }
             return true;

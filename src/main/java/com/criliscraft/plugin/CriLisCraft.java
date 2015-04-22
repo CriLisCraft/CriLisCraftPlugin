@@ -1,78 +1,91 @@
 package com.criliscraft.plugin;
 
 import com.criliscraft.plugin.commands.*;
-import com.criliscraft.plugin.commands.rank.Demote;
-import com.criliscraft.plugin.commands.rank.Promote;
-import com.criliscraft.plugin.commands.rank.Set;
 import com.criliscraft.plugin.listeners.BlockListener;
 import com.criliscraft.plugin.listeners.PlayerListener;
 import com.criliscraft.plugin.util.Perms;
-import com.criliscraft.plugin.util.Signs;
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.mcstats.Metrics;
 
 import java.io.IOException;
+import java.util.Arrays;
+import java.util.List;
 
 public class CriLisCraft extends JavaPlugin {
+
+    boolean clcCommand = this.getConfig().getBoolean("clcCommand");
+    boolean hatCommand = this.getConfig().getBoolean("hatCommand");
+    boolean kitCommand = this.getConfig().getBoolean("kitCommand");
+    boolean dieCommand = this.getConfig().getBoolean("dieCommand");
+    boolean stats = this.getConfig().getBoolean("stats");
+    boolean debug = this.getConfig().getBoolean("debug");
+    boolean playerListener = this.getConfig().getBoolean("playerListener");
+    boolean blockListener = this.getConfig().getBoolean("blockListener");
 
     @Override
     public void onEnable() {
 
-        try {
-            Metrics metrics = new Metrics(this);
-            metrics.start();
-        } catch (IOException e) {
-            e.printStackTrace();
-            getLogger().severe("Failed To Submit Metrics");
+        this.getConfig().addDefault("clcCommand", true);
+        this.getConfig().addDefault("hatCommand", true);
+        this.getConfig().addDefault("kitCommand", true);
+        this.getConfig().addDefault("dieCommand", true);
+        this.getConfig().addDefault("stats", true);
+        this.getConfig().addDefault("debug", false);
+        this.getConfig().addDefault("playerListener", true);
+        this.getConfig().addDefault("blockListener", true);
+        this.getConfig().options().copyDefaults(true);
+        saveConfig();
+
+        if (stats == true) {
+            try {
+                Metrics metrics = new Metrics(this);
+                metrics.start();
+                if (debug == true) {
+                    getLogger().info("Metrics Loaded.");
+                }
+            } catch (IOException e) {
+                e.printStackTrace();
+                getLogger().severe("Failed To Submit Metrics");
+                if (debug == true) {
+                    getLogger().info("Metrics failed to start.");
+                }
+            }
         }
 
-        new PlayerListener(this);
-        new BlockListener(this);
-        //new EntityListener(this);
+        if (playerListener == true) {
+            new PlayerListener(this);
+        }
+        if (blockListener == true) {
+            new BlockListener(this);
+        }
+        if (debug == true) {
+            getLogger().info("Listeners Registered");
+        }
+
 
         PluginManager pm = getServer().getPluginManager();
-        pm.addPermission(Perms.clcHat);
-        pm.addPermission(Perms.clcPlaceTnt);
-        pm.addPermission(Perms.clcRandom);
-        pm.addPermission(Perms.clcCreativeOnJoin);
-        pm.addPermission(Perms.clcReload);
-        pm.addPermission(Perms.clcWellfare);
-        pm.addPermission(Perms.clcHelp);
-        pm.addPermission(Perms.clcBuy);
-        pm.addPermission(Perms.clcKit);
-        pm.addPermission(Perms.clcKitChaka);
-        pm.addPermission(Perms.clcKitList);
-        pm.addPermission(Perms.clcKitLegeis);
-        pm.addPermission(Perms.clcKitStaff);
-        pm.addPermission(Perms.clcKitTier1);
-        pm.addPermission(Perms.clcKitTier2);
-        pm.addPermission(Perms.clcKitTier3);
-        pm.addPermission(Perms.clcKitTier4);
-        pm.addPermission(Perms.clcKitTier5);
-        pm.addPermission(Perms.clcMetaItem);
-        pm.addPermission(Perms.clcDie);
-        pm.addPermission(Perms.clcStopAnnounce);
-        pm.addPermission(Perms.clcRankDemote);
-        pm.addPermission(Perms.clcRankPromote);
-        pm.addPermission(Perms.clcRankSet);
-        pm.addPermission(Perms.clcPotion);
+        Perms.init(pm);
+        if (debug == true) {
+            getLogger().info("Permissions Registered");
+        }
 
         //Commands
-        this.getCommand("clc").setExecutor(new CLC(this));
-        this.getCommand("hat").setExecutor(new Hat(this));
-        this.getCommand("random").setExecutor(new Random(this));
-        this.getCommand("kit").setExecutor(new Kit(this));
-        this.getCommand("buy").setExecutor(new Buy(this));
-        this.getCommand("metaitem").setExecutor(new MetaItem(this));
-        this.getCommand("die").setExecutor(new Die(this));
-        this.getCommand("titletest").setExecutor(new TitleTest(this));
-        this.getCommand("ci").setExecutor(new ClearInv(this));
-        this.getCommand("stopannounce").setExecutor(new StopAnnounce(this));
-        this.getCommand("promote").setExecutor(new Promote(this));
-        this.getCommand("demote").setExecutor(new Demote(this));
-        this.getCommand("set").setExecutor(new Set(this));
-        this.getCommand("potion").setExecutor(new Potion(this));
+        if (clcCommand == true) {
+            this.getCommand("clc").setExecutor(new CLC(this));
+        }
+        if (hatCommand == true) {
+            this.getCommand("hat").setExecutor(new Hat(this));
+        }
+        if (kitCommand == true) {
+            this.getCommand("kit").setExecutor(new Kit(this));
+        }
+        if (dieCommand == true) {
+            this.getCommand("die").setExecutor(new Die(this));
+        }
+        if (debug == true) {
+            getLogger().info("Commands Registered");
+        }
 
         saveConfig();
 

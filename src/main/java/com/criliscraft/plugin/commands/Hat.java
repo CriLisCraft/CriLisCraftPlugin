@@ -1,20 +1,16 @@
 package com.criliscraft.plugin.commands;
 
 import com.criliscraft.plugin.CriLisCraft;
-import com.criliscraft.plugin.util.Info;
+import com.criliscraft.plugin.api.chat.Returns;
 import com.criliscraft.plugin.util.Perms;
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
-import org.bukkit.Sound;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.PlayerInventory;
-import org.bukkit.potion.PotionEffect;
-import org.bukkit.potion.PotionEffectType;
-
 public class Hat implements CommandExecutor {
 
     private final CriLisCraft pl;
@@ -34,12 +30,12 @@ public class Hat implements CommandExecutor {
                     inventory.removeItem(new ItemStack[] { itemHand });
                     inventory.setHelmet(itemHand);
                     inventory.setItemInHand(itemHead);
-                    player.sendMessage(Info.CHAT_PREFIX + "Yay a hat!");
+                    player.sendMessage(Returns.CHAT_PREFIX + "Yay a hat!");
                 } else {
-                    player.sendMessage(Info.CHAT_PREFIX + ChatColor.DARK_RED + "You must have something in your hand!");
+                    player.sendMessage(Returns.CHAT_PREFIX + ChatColor.DARK_RED + "You must have something in your hand!");
                 }
             } else {
-                Info.noPerms(player);
+                player.sendMessage(Returns.NO_PERMS);
             }
             return true;
         }

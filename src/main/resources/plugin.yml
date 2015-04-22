@@ -1,8 +1,7 @@
 name: CriLisCraft
 main: com.criliscraft.plugin.CriLisCraft
 author: Chaka
-depend: [PermissionsEx]
-version: 1.10.2-SNAPSHOT
+version: 1.8-15.4.22-R1.0
 commands:
    clc:
       description: The Main Command
@@ -10,39 +9,9 @@ commands:
    hat:
       description: Hat command
       usage: /<command>
-   random:
-      description: Teleports the player to a random location
-      usage: /<command>
    kit:
       description: Experimenting with kits
       usage: /<command>
-   buy:
-      description: Command redirect
-      usage: /<command>
-   metaitem:
-      description: Meta ItemStack
-      usage: /<command>
    die:
       description: An Amazing Death
-      usage: /<command>
-   titletest:
-      description: Testing titles
-      usage: /<command>
-   ci:
-      description: Clears the players inventory
-      usage: /<command>
-   stopannounce:
-      description: Stop Announce
-      usage: /<command>
-   promote:
-      description: Server Promote Command
-      usage: /<command>
-   demote:
-      description: Server Demote Command
-      usage: /<command>
-   set:
-      description: Server Set Rank Command
-      usage: /<command>
-   potion:
-      description: Server Potion Command
       usage: /<command>

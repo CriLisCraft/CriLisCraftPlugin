@@ -1,7 +1,7 @@
 package com.criliscraft.plugin.commands;
 
 import com.criliscraft.plugin.CriLisCraft;
-import com.criliscraft.plugin.util.Info;
+import com.criliscraft.plugin.api.chat.Returns;
 import com.criliscraft.plugin.util.Perms;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
@@ -20,11 +20,10 @@ public class Die implements CommandExecutor {
         if (cmd.getName().equalsIgnoreCase("die") && sender instanceof Player) {
             Player player = (Player) sender;
             if (player.hasPermission(Perms.clcDie)) {
-                player.sendRawMessage(player.getName() + " has chosen the easy way out.");
-                player.sendMessage(Info.CHAT_PREFIX + "Your on your way on a long journey.  Farewell my friend.");
+                player.sendMessage(Returns.CHAT_PREFIX + "Your on your way on a long journey.  Farewell my friend.");
                 player.setHealth(0);
             } else {
-                Info.noPerms(player);
+                player.sendMessage(Returns.NO_PERMS);
             }
             return true;
         }

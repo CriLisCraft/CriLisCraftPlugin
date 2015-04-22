@@ -1,19 +1,13 @@
 package com.criliscraft.plugin.commands;
 
 import com.criliscraft.plugin.CriLisCraft;
-import com.criliscraft.plugin.util.Info;
+import com.criliscraft.plugin.api.chat.Color;
+import com.criliscraft.plugin.api.chat.Returns;
 import com.criliscraft.plugin.util.Perms;
-import org.bukkit.Bukkit;
-import org.bukkit.ChatColor;
-import org.bukkit.Material;
-import org.bukkit.Sound;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
-import org.bukkit.inventory.ItemStack;
-import org.bukkit.potion.PotionEffect;
-import org.bukkit.potion.PotionEffectType;
 
 public class CLC implements CommandExecutor {
 
@@ -31,38 +25,32 @@ public class CLC implements CommandExecutor {
             Player player = (Player) sender;
             if (length == 1 && args[0].equalsIgnoreCase("help")) {
                 if (player.hasPermission(Perms.clcHelp)) {
-                    player.sendMessage(Info.CA + "-- " + Info.C3 + "Commands" + Info.CA + " ---");
-                    player.sendMessage(Info.C3 + "/clc" + Info.CA + " - The Main Command.");
+                    player.sendMessage(Color.c("a") + "-- " + Color.c(3) + "Commands" + Color.c("a") + " ---");
+                    player.sendMessage(Color.c(3) + "/clc" + Color.c("a") + " - The main command.");
                     if (player.hasPermission(Perms.clcHelp)) {
-                        player.sendMessage(Info.C3 + "/clc help" + Info.CA + " - Diaplay's All Help Info.");
+                        player.sendMessage(Color.c(3) + "/clc help" + Color.c("a") + " - Diaplay's all help info..");
                     }
                     if (player.hasPermission(Perms.clcHat)) {
-                        player.sendMessage(Info.C3 + "/hat" + Info.CA + " - Makes the item in your hand a hat.");
-                    }
-                    if (player.hasPermission(Perms.clcRandom)) {
-                        player.sendMessage(Info.C3 + "/random" + Info.CA + " - Teleports you to a random location.");
-                    }
-                    if (player.hasPermission(Perms.clcBuy)) {
-                        player.sendMessage(Info.C3 + "/buy" + Info.CA + " - The CriLis Craft buy command.");
+                        player.sendMessage(Color.c(3) + "/hat" + Color.c("a") + " - Makes the item in your hand a hat.");
                     }
                     if (player.hasPermission(Perms.clcKit)) {
-                        player.sendMessage(Info.C3 + "/kit" + Info.CA + " - Gives you fancy kits :D.");
+                        player.sendMessage(Color.c(3) + "/kit" + Color.c("a") + " - Gives you fancy kits :D.");
                     }
                     if (player.hasPermission(Perms.clcReload)) {
-                        player.sendMessage(Info.C3 + "/clc reload" + Info.CA + " - Reloads the config.");
+                        player.sendMessage(Color.c(3) + "/clc reload" + Color.c("a") + " - Reloads the config.");
                     }
                 } else {
-                    Info.noPerms(player);
+                    player.sendMessage(Returns.NO_PERMS);
                 }
             } else if (length == 1 && args[0].equalsIgnoreCase("reload")) {
                 if (player.hasPermission(Perms.clcReload)) {
                     configGetter.reloadConfig();
-                    player.sendMessage(Info.CHAT_PREFIX + "Config Reloaded");
+                    player.sendMessage(Returns.CHAT_PREFIX + "Config Reloaded");
                 } else {
-                    Info.noPerms(player);
+                    player.sendMessage(Returns.NO_PERMS);
                 }
             } else {
-                player.sendMessage(Info.CHAT_PREFIX + "Use " + Info.C3 + "/clc help " + Info.CA + "for a valid list of sub commands.");
+                player.sendMessage(Returns.CHAT_PREFIX + "Use " + Color.c(3) + "/clc help " + Color.c("a") + "for a valid list of sub commands.");
             }
             return true;
         }
