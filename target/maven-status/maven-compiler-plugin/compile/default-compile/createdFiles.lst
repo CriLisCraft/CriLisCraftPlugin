@@ -1,11 +1,12 @@
 com\criliscraft\plugin\listeners\PlayerListener.class
-com\criliscraft\plugin\commands\Hat.class
-com\criliscraft\plugin\listeners\BlockListener.class
 com\criliscraft\plugin\commands\CLC.class
-com\criliscraft\plugin\api\chat\Color.class
 com\criliscraft\plugin\util\Perms.class
-com\criliscraft\plugin\api\Title.class
 com\criliscraft\plugin\commands\Die.class
 com\criliscraft\plugin\CriLisCraft.class
 com\criliscraft\plugin\commands\Kit.class
+com\criliscraft\plugin\commands\Hat.class
+com\criliscraft\plugin\listeners\BlockListener.class
+com\criliscraft\plugin\api\chat\Color.class
+com\criliscraft\plugin\api\Title.class
 com\criliscraft\plugin\api\chat\Returns.class
+com\criliscraft\plugin\inv\DonationInv.class

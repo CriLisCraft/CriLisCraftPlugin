@@ -3,6 +3,7 @@ package com.criliscraft.plugin.commands;
 import com.criliscraft.plugin.CriLisCraft;
 import com.criliscraft.plugin.api.chat.Color;
 import com.criliscraft.plugin.api.chat.Returns;
+import com.criliscraft.plugin.util.Items;
 import com.criliscraft.plugin.util.Perms;
 import org.bukkit.Material;
 import org.bukkit.command.Command;
@@ -42,26 +43,21 @@ public class Kit implements CommandExecutor {
                 if (player.hasPermission(Perms.clcKitChaka)) {
                     PlayerInventory inv = player.getInventory();
 
-                    ItemStack itemhead = new ItemStack(Material.SKULL_ITEM);
-                    ItemMeta meta2 = itemhead.getItemMeta();
-
-                    ItemStack item = new ItemStack(Material.DIAMOND_SWORD);
-                    ItemMeta meta = item.getItemMeta();
-                    meta.setDisplayName("Chaka Sword");
-                    meta.setLore(Arrays.asList("Feel the sharp sword slice thru your body."));
-                    meta.setLore(Arrays.asList("This is the mighty sword of Lord Chaka"));
-                    meta.addEnchant(Enchantment.DAMAGE_ALL, 10, true);
-                    meta.addEnchant(Enchantment.KNOCKBACK, 8, true);
-                    meta.addEnchant(Enchantment.FIRE_ASPECT, 6, true);
-                    meta.addEnchant(Enchantment.LOOT_BONUS_MOBS, 7, true);
-                    meta.addEnchant(Enchantment.DURABILITY, 10, true);
-                    item.setItemMeta(meta);
+                    ItemStack item = Items.chakaSword();
                     inv.addItem(new ItemStack(item));
                     player.sendMessage(Returns.CHAT_PREFIX + "You have been given the kit, " + Color.c(3) + "CHAKA");
                 } else {
                     player.sendMessage(Returns.NO_PERMS);
                 }
                 return true;
+            } else if (length == 1 && args[0].equalsIgnoreCase("l1")) {
+                if (player.hasPermission(Perms.clcKitEquip)) {
+                    // 1 - stick 2- feather 3 - chaka 4- legeis
+                    PlayerInventory inv = player.getInventory();
+
+                } else {
+                    player.sendMessage(Returns.NO_PERMS);
+                }
             } else if (length == 1 && args[0].equalsIgnoreCase("legeis")) {
                 if (player.hasPermission(Perms.clcKitLegeis)) {
                     PlayerInventory inv = player.getInventory();
@@ -94,6 +90,9 @@ public class Kit implements CommandExecutor {
                     }
                     if (player.hasPermission(Perms.clcKitLegeis)) {
                         player.sendMessage(Color.c(3) + "LEGEIS " + Color.c("a") + "- The Legeis Kit");
+                    }
+                    if (player.hasPermission(Perms.clcKitEquip)) {
+                        player.sendMessage(Color.c(3) + "L1 " + Color.c("a") + "- The l1 Kit");
                     }
                 } else {
                     player.sendMessage(Returns.NO_PERMS);

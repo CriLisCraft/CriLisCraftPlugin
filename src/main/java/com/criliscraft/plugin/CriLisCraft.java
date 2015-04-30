@@ -1,16 +1,22 @@
 package com.criliscraft.plugin;
 
+import com.criliscraft.plugin.api.sql.MySQLAPI;
+import com.criliscraft.plugin.api.sql.mysql.MySQL;
 import com.criliscraft.plugin.commands.*;
 import com.criliscraft.plugin.listeners.BlockListener;
 import com.criliscraft.plugin.listeners.PlayerListener;
 import com.criliscraft.plugin.util.Perms;
+import org.bukkit.Bukkit;
+import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.mcstats.Metrics;
 
 import java.io.IOException;
-import java.util.Arrays;
-import java.util.List;
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
 
 public class CriLisCraft extends JavaPlugin {
 
@@ -22,6 +28,13 @@ public class CriLisCraft extends JavaPlugin {
     boolean debug = this.getConfig().getBoolean("debug");
     boolean playerListener = this.getConfig().getBoolean("playerListener");
     boolean blockListener = this.getConfig().getBoolean("blockListener");
+    boolean mysql = this.getConfig().getBoolean("mysql");
+    String mysqlHost = this.getConfig().getString("mysql-host");
+    String mysqlPort = this.getConfig().getString("mysql-port");
+    String mysqlDatabase = this.getConfig().getString("mysql-database");
+    String mysqlUser = this.getConfig().getString("mysql-user");
+    String mysqlPass = this.getConfig().getString("mysql-pass");
+    Plugin plugin;
 
     @Override
     public void onEnable() {
@@ -34,8 +47,20 @@ public class CriLisCraft extends JavaPlugin {
         this.getConfig().addDefault("debug", false);
         this.getConfig().addDefault("playerListener", true);
         this.getConfig().addDefault("blockListener", true);
+        this.getConfig().addDefault("mysql", true);
+        this.getConfig().addDefault("mysql-host", "localhost");
+        this.getConfig().addDefault("mysql-port", "3306");
+        this.getConfig().addDefault("mysql-database", "criliscraft-pl");
+        this.getConfig().addDefault("mysql-user", "minecraft");
+        this.getConfig().addDefault("mysql-pass", "minecraft");
         this.getConfig().options().copyDefaults(true);
         saveConfig();
+
+        MySQLAPI sqlapi = new MySQLAPI((CriLisCraft) Bukkit.getServer().getPluginManager().getPlugin("CriLisCraft"));
+        MySQLAPI.getInstance();
+
+        sqlapi.Connect(mysqlHost, mysqlPort, mysqlDatabase, mysqlUser, mysqlPass);
+        sqlapi.createTable("reports" );
 
         if (stats == true) {
             try {
@@ -62,7 +87,6 @@ public class CriLisCraft extends JavaPlugin {
         if (debug == true) {
             getLogger().info("Listeners Registered");
         }
-
 
         PluginManager pm = getServer().getPluginManager();
         Perms.init(pm);

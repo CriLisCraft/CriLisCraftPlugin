@@ -3,6 +3,7 @@ package com.criliscraft.plugin.commands;
 import com.criliscraft.plugin.CriLisCraft;
 import com.criliscraft.plugin.api.chat.Color;
 import com.criliscraft.plugin.api.chat.Returns;
+import com.criliscraft.plugin.inv.DonationInv;
 import com.criliscraft.plugin.util.Perms;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
@@ -49,6 +50,9 @@ public class CLC implements CommandExecutor {
                 } else {
                     player.sendMessage(Returns.NO_PERMS);
                 }
+            } else if (length == 1 && args[0].equalsIgnoreCase("buyinv")) {
+                player.openInventory(DonationInv.inv);
+                player.sendMessage(Returns.CHAT_PREFIX + "Opening the Donation Shop.");
             } else {
                 player.sendMessage(Returns.CHAT_PREFIX + "Use " + Color.c(3) + "/clc help " + Color.c("a") + "for a valid list of sub commands.");
             }
