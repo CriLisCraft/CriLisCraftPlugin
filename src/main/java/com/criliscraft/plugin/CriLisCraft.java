@@ -1,7 +1,6 @@
 package com.criliscraft.plugin;
 
 import com.criliscraft.plugin.api.sql.MySQLAPI;
-import com.criliscraft.plugin.api.sql.mysql.MySQL;
 import com.criliscraft.plugin.commands.*;
 import com.criliscraft.plugin.listeners.BlockListener;
 import com.criliscraft.plugin.listeners.PlayerListener;
@@ -13,10 +12,6 @@ import org.bukkit.plugin.java.JavaPlugin;
 import org.mcstats.Metrics;
 
 import java.io.IOException;
-import java.sql.Connection;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
 
 public class CriLisCraft extends JavaPlugin {
 
@@ -60,7 +55,6 @@ public class CriLisCraft extends JavaPlugin {
         MySQLAPI.getInstance();
 
         sqlapi.Connect(mysqlHost, mysqlPort, mysqlDatabase, mysqlUser, mysqlPass);
-        sqlapi.createTable("reports" );
 
         if (stats == true) {
             try {
@@ -107,6 +101,7 @@ public class CriLisCraft extends JavaPlugin {
         if (dieCommand == true) {
             this.getCommand("die").setExecutor(new Die(this));
         }
+        this.getCommand("ranktone").setExecutor(new Rank(this));
         if (debug == true) {
             getLogger().info("Commands Registered");
         }

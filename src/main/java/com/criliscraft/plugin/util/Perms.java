@@ -30,6 +30,13 @@ public class Perms {
     static public Permission clcReport = new Permission("clc.cmd.report");
     static public Permission clcReportMod = new Permission("clc.cmd.report.mod");
 
+    static public Permission clcRank = new Permission("clc.cmd.rank");
+    static public Permission clcRankOne = new Permission("clc.cmd.rank.one");
+    static public Permission clcRankTwo = new Permission("clc.cmd.rank.two");
+    static public Permission clcRankThree = new Permission("clc.cmd.rank.three");
+    static public Permission clcRankFour = new Permission("clc.cmd.rank.four");
+    static public Permission clcRankFive = new Permission("clc.cmd.rank.five");
+
     //Kits
     static public Permission clcKit = new Permission("clc.cmd.kit");
     static public Permission clcKitList = new Permission("clc.kit.list");
