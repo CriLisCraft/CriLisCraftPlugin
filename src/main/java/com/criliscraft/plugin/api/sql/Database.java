@@ -1,69 +1,129 @@
 package com.criliscraft.plugin.api.sql;
 
+import org.bukkit.plugin.Plugin;
+
 import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
 
-public abstract class Database
-{
-    protected boolean connected;
+public abstract class Database {
+
     protected Connection connection;
-    public int lastUpdate;
 
-    public Database()
-    {
-        this.connected = false;
+    /**
+     * Plugin instance, use for plugin.getDataFolder()
+     */
+    protected Plugin plugin;
+
+    /**
+     * Creates a new Database
+     *
+     * @param plugin
+     *            Plugin instance
+     */
+    protected Database(Plugin plugin) {
+        this.plugin = plugin;
         this.connection = null;
     }
 
-    protected Statements getStatement(String query)
-    {
-        String trimmedQuery = query.trim();
-        if (trimmedQuery.substring(0, 6).equalsIgnoreCase("SELECT")) {
-            return Statements.SELECT;
-        }
-        if (trimmedQuery.substring(0, 6).equalsIgnoreCase("INSERT")) {
-            return Statements.INSERT;
-        }
-        if (trimmedQuery.substring(0, 6).equalsIgnoreCase("UPDATE")) {
-            return Statements.UPDATE;
-        }
-        if (trimmedQuery.substring(0, 6).equalsIgnoreCase("DELETE")) {
-            return Statements.DELETE;
-        }
-        if (trimmedQuery.substring(0, 6).equalsIgnoreCase("CREATE")) {
-            return Statements.CREATE;
-        }
-        if (trimmedQuery.substring(0, 5).equalsIgnoreCase("ALTER")) {
-            return Statements.ALTER;
-        }
-        if (trimmedQuery.substring(0, 4).equalsIgnoreCase("DROP")) {
-            return Statements.DROP;
-        }
-        if (trimmedQuery.substring(0, 8).equalsIgnoreCase("TRUNCATE")) {
-            return Statements.TRUNCATE;
-        }
-        if (trimmedQuery.substring(0, 6).equalsIgnoreCase("RENAME")) {
-            return Statements.RENAME;
-        }
-        if (trimmedQuery.substring(0, 2).equalsIgnoreCase("DO")) {
-            return Statements.DO;
-        }
-        if (trimmedQuery.substring(0, 7).equalsIgnoreCase("REPLACE")) {
-            return Statements.REPLACE;
-        }
-        if (trimmedQuery.substring(0, 4).equalsIgnoreCase("LOAD")) {
-            return Statements.LOAD;
-        }
-        if (trimmedQuery.substring(0, 7).equalsIgnoreCase("HANDLER")) {
-            return Statements.HANDLER;
-        }
-        if (trimmedQuery.substring(0, 4).equalsIgnoreCase("CALL")) {
-            return Statements.CALL;
-        }
-        return Statements.SELECT;
+    /**
+     * Opens a connection with the database
+     *
+     * @return Opened connection
+     * @throws SQLException
+     *             if the connection can not be opened
+     * @throws ClassNotFoundException
+     *             if the driver cannot be found
+     */
+    public abstract Connection openConnection() throws SQLException,
+            ClassNotFoundException;
+
+    /**
+     * Checks if a connection is open with the database
+     *
+     * @return true if the connection is open
+     * @throws SQLException
+     *             if the connection cannot be checked
+     */
+    public boolean checkConnection() throws SQLException {
+        return connection != null && !connection.isClosed();
     }
 
-    protected static enum Statements
-    {
-        SELECT,  INSERT,  UPDATE,  DELETE,  DO,  REPLACE,  LOAD,  HANDLER,  CALL,  CREATE,  ALTER,  DROP,  TRUNCATE,  RENAME,  START,  COMMIT,  ROLLBACK,  SAVEPOINT,  LOCK,  UNLOCK,  PREPARE,  EXECUTE,  DEALLOCATE,  SET,  SHOW,  DESCRIBE,  EXPLAIN,  HELP,  USE,  ANALYZE,  ATTACH,  BEGIN,  DETACH,  END,  INDEXED,  ON,  PRAGMA,  REINDEX,  RELEASE,  VACUUM;
+    /**
+     * Gets the connection with the database
+     *
+     * @return Connection with the database, null if none
+     */
+    public Connection getConnection() {
+        return connection;
+    }
+
+    /**
+     * Closes the connection with the database
+     *
+     * @return true if successful
+     * @throws SQLException
+     *             if the connection cannot be closed
+     */
+    public boolean closeConnection() throws SQLException {
+        if (connection == null) {
+            return false;
+        }
+        connection.close();
+        return true;
+    }
+
+
+    /**
+     * Executes a SQL Query<br>
+     *
+     * If the connection is closed, it will be opened
+     *
+     * @param query
+     *            Query to be run
+     * @return the results of the query
+     * @throws SQLException
+     *             If the query cannot be executed
+     * @throws ClassNotFoundException
+     *             If the driver cannot be found; see {@link #openConnection()}
+     */
+    public ResultSet querySQL(String query) throws SQLException,
+            ClassNotFoundException {
+        if (!checkConnection()) {
+            openConnection();
+        }
+
+        Statement statement = connection.createStatement();
+
+        ResultSet result = statement.executeQuery(query);
+
+        return result;
+    }
+
+    /**
+     * Executes an Update SQL Query<br>
+     * See {@link java.sql.Statement#executeUpdate(String)}<br>
+     * If the connection is closed, it will be opened
+     *
+     * @param query
+     *            Query to be run
+     * @return Result Code, see {@link java.sql.Statement#executeUpdate(String)}
+     * @throws SQLException
+     *             If the query cannot be executed
+     * @throws ClassNotFoundException
+     *             If the driver cannot be found; see {@link #openConnection()}
+     */
+    public int updateSQL(String query) throws SQLException,
+            ClassNotFoundException {
+        if (!checkConnection()) {
+            openConnection();
+        }
+
+        Statement statement = connection.createStatement();
+
+        int result = statement.executeUpdate(query);
+
+        return result;
     }
 }

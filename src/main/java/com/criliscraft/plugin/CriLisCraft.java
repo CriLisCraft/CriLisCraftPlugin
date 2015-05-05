@@ -1,17 +1,18 @@
 package com.criliscraft.plugin;
 
-import com.criliscraft.plugin.api.sql.MySQLAPI;
+import com.criliscraft.plugin.api.sql.MySQL;
 import com.criliscraft.plugin.commands.*;
+import com.criliscraft.plugin.commands.rank.RankT1;
 import com.criliscraft.plugin.listeners.BlockListener;
 import com.criliscraft.plugin.listeners.PlayerListener;
 import com.criliscraft.plugin.util.Perms;
-import org.bukkit.Bukkit;
 import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.mcstats.Metrics;
 
 import java.io.IOException;
+import java.sql.Connection;
 
 public class CriLisCraft extends JavaPlugin {
 
@@ -31,10 +32,13 @@ public class CriLisCraft extends JavaPlugin {
     String mysqlPass = this.getConfig().getString("mysql-pass");
     Plugin plugin;
 
+    /**public MySQL mySQL = new MySQL(plugin, mysqlHost, mysqlPort, mysqlDatabase, mysqlUser, mysqlPass);
+    public Connection c = null;**/
+
     @Override
     public void onEnable() {
 
-        this.getConfig().addDefault("clcCommand", true);
+        /**this.getConfig().addDefault("clcCommand", true);
         this.getConfig().addDefault("hatCommand", true);
         this.getConfig().addDefault("kitCommand", true);
         this.getConfig().addDefault("dieCommand", true);
@@ -45,16 +49,11 @@ public class CriLisCraft extends JavaPlugin {
         this.getConfig().addDefault("mysql", true);
         this.getConfig().addDefault("mysql-host", "localhost");
         this.getConfig().addDefault("mysql-port", "3306");
-        this.getConfig().addDefault("mysql-database", "criliscraft-pl");
+        this.getConfig().addDefault("mysql-database", "clcpl");
         this.getConfig().addDefault("mysql-user", "minecraft");
         this.getConfig().addDefault("mysql-pass", "minecraft");
         this.getConfig().options().copyDefaults(true);
-        saveConfig();
-
-        MySQLAPI sqlapi = new MySQLAPI((CriLisCraft) Bukkit.getServer().getPluginManager().getPlugin("CriLisCraft"));
-        MySQLAPI.getInstance();
-
-        sqlapi.Connect(mysqlHost, mysqlPort, mysqlDatabase, mysqlUser, mysqlPass);
+        saveConfig();**/
 
         if (stats == true) {
             try {
@@ -101,7 +100,7 @@ public class CriLisCraft extends JavaPlugin {
         if (dieCommand == true) {
             this.getCommand("die").setExecutor(new Die(this));
         }
-        this.getCommand("ranktone").setExecutor(new Rank(this));
+        this.getCommand("rankone").setExecutor(new RankT1(this));
         if (debug == true) {
             getLogger().info("Commands Registered");
         }

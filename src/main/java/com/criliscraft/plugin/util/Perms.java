@@ -19,7 +19,6 @@ public class Perms {
         pm.addPermission(clcKitLegeis);
         pm.addPermission(clcReport);
         pm.addPermission(clcReportMod);
-        pm.addPermission(clcKitLegeis);
     }
     static public Permission clcHat = new Permission("clc.cmd.hat");
     static public Permission clcPlaceTnt = new Permission("clc.place.tnt");
