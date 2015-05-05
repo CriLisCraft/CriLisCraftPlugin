@@ -1,8 +1,7 @@
 package com.criliscraft.plugin;
 
-import com.criliscraft.plugin.api.sql.MySQL;
 import com.criliscraft.plugin.commands.*;
-import com.criliscraft.plugin.commands.rank.RankT1;
+import com.criliscraft.plugin.commands.rank.RankOne;
 import com.criliscraft.plugin.listeners.BlockListener;
 import com.criliscraft.plugin.listeners.PlayerListener;
 import com.criliscraft.plugin.util.Perms;
@@ -12,7 +11,6 @@ import org.bukkit.plugin.java.JavaPlugin;
 import org.mcstats.Metrics;
 
 import java.io.IOException;
-import java.sql.Connection;
 
 public class CriLisCraft extends JavaPlugin {
 
@@ -100,7 +98,7 @@ public class CriLisCraft extends JavaPlugin {
         if (dieCommand == true) {
             this.getCommand("die").setExecutor(new Die(this));
         }
-        this.getCommand("rankone").setExecutor(new RankT1(this));
+        this.getCommand("rankone").setExecutor(new RankOne(this));
         if (debug == true) {
             getLogger().info("Commands Registered");
         }

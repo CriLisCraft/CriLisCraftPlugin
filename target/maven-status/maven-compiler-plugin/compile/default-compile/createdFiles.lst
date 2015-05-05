@@ -1,8 +1,8 @@
 com\criliscraft\plugin\listeners\PlayerListener.class
+com\criliscraft\plugin\commands\rank\RankOne.class
 com\criliscraft\plugin\commands\CLC.class
 com\criliscraft\plugin\util\Perms.class
 com\criliscraft\plugin\util\Items.class
-com\criliscraft\plugin\commands\rank\RankT1.class
 com\criliscraft\plugin\commands\Die.class
 com\criliscraft\plugin\CriLisCraft.class
 com\criliscraft\plugin\api\sql\MySQL.class

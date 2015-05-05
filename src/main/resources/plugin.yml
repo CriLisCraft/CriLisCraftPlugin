@@ -1,7 +1,7 @@
 name: CriLisCraft
 main: com.criliscraft.plugin.CriLisCraft
 author: Chaka
-version: 1.8-15.5.4-R0.2
+version: 1.8-15.5.5-R0.0
 commands:
    clc:
       description: The Main Command

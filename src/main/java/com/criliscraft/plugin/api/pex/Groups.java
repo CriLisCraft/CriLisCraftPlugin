@@ -1,39 +1,43 @@
 package com.criliscraft.plugin.api.pex;
 
-import ru.tehkode.permissions.PermissionGroup;
-import ru.tehkode.permissions.PermissionManager;
-import ru.tehkode.permissions.PermissionsGroupData;
+import org.bukkit.Bukkit;
+import org.bukkit.command.CommandSender;
 
 public class Groups {
 
-    private static PermissionsGroupData data;
-    private static PermissionManager permManager;
-
     //Default Groups
-    public static final PermissionGroup GUEST = new PermissionGroup("Guest", data, permManager);
-    public static final PermissionGroup PEASANT = new PermissionGroup("Peasant", data, permManager);
-    public static final PermissionGroup CITIZEN = new PermissionGroup("Citizen", data, permManager);
-    public static final PermissionGroup SQUIRE = new PermissionGroup("Squire", data, permManager);
-    public static final PermissionGroup KNIGHT = new PermissionGroup("Knight", data, permManager);
-    public static final PermissionGroup SIR = new PermissionGroup("Sir", data, permManager);
-    public static final PermissionGroup LORD = new PermissionGroup("Lord", data, permManager);
+    public static final String GUEST = "Guest";
+    public static final String PEASANT = "Peasant";
+    public static final String CITIZEN = "Citizen";
+    public static final String SQUIRE = "Squire";
+    public static final String KNIGHT = "Knight";
+    public static final String SIR = "Sir";
+    public static final String LORD = "Lord";
 
     //Donation Groups
-    public static final PermissionGroup TIER1 = new PermissionGroup("Tier1", data, permManager);
-    public static final PermissionGroup TIER2 = new PermissionGroup("Tier2", data, permManager);
-    public static final PermissionGroup TIER3 = new PermissionGroup("Tier3", data, permManager);
-    public static final PermissionGroup TIER4 = new PermissionGroup("Tier4", data, permManager);
-    public static final PermissionGroup TIER5 = new PermissionGroup("Tier5", data, permManager);
-    public static final PermissionGroup SUPPORTER = new PermissionGroup("Supporter", data, permManager);
+    public static final String TIER1 = "Tier1";
+    public static final String TIER2 = "Tier2";
+    public static final String TIER3 = "Tier3";
+    public static final String TIER4 = "Tier4";
+    public static final String TIER5 = "Tier5";
+    public static final String SUPPORTER = "Supporter";
 
     //Special Groups
-    public static final PermissionGroup ADULT_CHAT_USER = new PermissionGroup("AdultChatUser", data, permManager);
-    public static final PermissionGroup YEAR1 = new PermissionGroup("1Year", data, permManager);
-    public static final PermissionGroup YEAR2 = new PermissionGroup("2Year", data, permManager);
+    public static final String ADULT_CHAT_USER = "AdultChatUser";
+    public static final String YEAR1 = "1Year";
+    public static final String YEAR2 = "2Year";
 
     //Staff Groups
-    public static final PermissionGroup MODERATOR = new PermissionGroup("Moderator", data, permManager);
-    public static final PermissionGroup CRILIS_MOD = new PermissionGroup("CriLisMod", data, permManager);
-    public static final PermissionGroup LIMITED_ADMIN  = new PermissionGroup("LimitedAdmin", data, permManager);
-    public static final PermissionGroup ADMIN = new PermissionGroup("ADMIN", data, permManager);
+    public static final String MODERATOR = "Moderator";
+    public static final String CRILIS_MOD = "CriLisMod";
+    public static final String LIMITED_ADMIN  = "LimitedAdmin";
+    public static final String ADMIN = "Admin";
+
+    private static void setRank(CommandSender source, String name, String group) {
+        Bukkit.dispatchCommand(source, "pex user " + name + " group set " + group);
+    }
+
+    private static void setRank(CommandSender source, String name, String group, int time) {
+        Bukkit.dispatchCommand(source, "pex user " + name + " group set " + group + " \"\" " + time);
+    }
 }
