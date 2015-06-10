@@ -2,211 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f98c56cf-e513-44ed-a371-58e6bd7de4ed" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/api/ChatLib.java" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\dependency-reduced-pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\criliscraft\plugin\api\Title.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\criliscraft\plugin\api\chat\Color.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\criliscraft\plugin\api\chat\Returns.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\criliscraft\plugin\api\pex\Groups.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\criliscraft\plugin\api\sql\Database.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\criliscraft\plugin\api\sql\MySQL.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\criliscraft\plugin\api\sql\SQLite.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\criliscraft\plugin\api\user\UUIDFetcher.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\criliscraft\plugin\commands\CLC.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\criliscraft\plugin\commands\DIE.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\criliscraft\plugin\commands\Hat.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\criliscraft\plugin\commands\Kit.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\criliscraft\plugin\commands\rank\RankOne.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\criliscraft\plugin\inv\DonationInv.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\criliscraft\plugin\inv\Inventories.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\criliscraft\plugin\listeners\BlockListener.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\criliscraft\plugin\listeners\PlayerListener.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\criliscraft\plugin\util\Items.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\criliscraft\plugin\util\Perms.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\CriLisCraft-1.0-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\CriLisCraft-1.1-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\CriLisCraft-1.1.1-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\CriLisCraft-1.10.0-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\CriLisCraft-1.10.1-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\CriLisCraft-1.10.2-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\CriLisCraft-1.10.3-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\CriLisCraft-1.2-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\CriLisCraft-1.2.1-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\CriLisCraft-1.2.2-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\CriLisCraft-1.2.3-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\CriLisCraft-1.2.4-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\CriLisCraft-1.2.5-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\CriLisCraft-1.2.6-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\CriLisCraft-1.4-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\CriLisCraft-1.4.1-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\CriLisCraft-1.4.2-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\CriLisCraft-1.5-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\CriLisCraft-1.5.1-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\CriLisCraft-1.5.2-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\CriLisCraft-1.5.3-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\CriLisCraft-1.6-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\CriLisCraft-1.7-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\CriLisCraft-1.7.1-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\CriLisCraft-1.7.10-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\CriLisCraft-1.7.2-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\CriLisCraft-1.7.3-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\CriLisCraft-1.7.4-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\CriLisCraft-1.7.5-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\CriLisCraft-1.7.6-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\CriLisCraft-1.7.7-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\CriLisCraft-1.7.8-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\CriLisCraft-1.7.9-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\CriLisCraft-1.8-15.4.22-R0.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\CriLisCraft-1.8-15.4.22-R0.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\CriLisCraft-1.8-15.4.22-R1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\CriLisCraft-1.8-15.4.22-R1.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\CriLisCraft-1.8-15.4.22-R1.2-shaded.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\CriLisCraft-1.8-15.4.22-R1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\CriLisCraft-1.8-15.4.30-R0.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\CriLisCraft-1.8-15.4.30-R0.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\CriLisCraft-1.8-15.4.30-R0.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\CriLisCraft-1.8-15.4.30-R0.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\CriLisCraft-1.8-15.4.30-R0.5.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\CriLisCraft-1.8-15.5.4-R0.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\CriLisCraft-1.8-15.5.4-R0.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\CriLisCraft-1.8-15.5.4-R0.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\CriLisCraft-1.8-15.5.5-R0.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\CriLisCraft-1.8-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\CriLisCraft-1.9-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\CriLisCraft-1.9.1-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\CriLisCraft-1.9.10-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\CriLisCraft-1.9.11-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\CriLisCraft-1.9.12-R0.1-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\CriLisCraft-1.9.12-R0.2-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\CriLisCraft-1.9.13-R0.1-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\CriLisCraft-1.9.13-R0.2-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\CriLisCraft-1.9.13-R0.3-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\CriLisCraft-1.9.13-R0.4-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\CriLisCraft-1.9.13-R0.5-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\CriLisCraft-1.9.13-R0.6-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\CriLisCraft-1.9.13-R0.7-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\CriLisCraft-1.9.13-R0.8-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\CriLisCraft-1.9.13-R0.9-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\CriLisCraft-1.9.14-R0.1-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\CriLisCraft-1.9.14-R0.2-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\CriLisCraft-1.9.14-R0.3-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\CriLisCraft-1.9.14-R0.4-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\CriLisCraft-1.9.14-R0.5-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\CriLisCraft-1.9.14-R0.6-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\CriLisCraft-1.9.14-R0.7-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\CriLisCraft-1.9.14-R0.8-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\CriLisCraft-1.9.14-R0.9-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\CriLisCraft-1.9.15-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\CriLisCraft-1.9.16-R0.1-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\CriLisCraft-1.9.16-R0.2-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\CriLisCraft-1.9.16-R0.3-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\CriLisCraft-1.9.16-R0.4-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\CriLisCraft-1.9.16-R0.5-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\CriLisCraft-1.9.16-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\CriLisCraft-1.9.17-R0.1-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\CriLisCraft-1.9.17-R0.2-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\CriLisCraft-1.9.17-R0.3-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\CriLisCraft-1.9.17-R0.4-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\CriLisCraft-1.9.17-R0.5-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\CriLisCraft-1.9.17-R0.6-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\CriLisCraft-1.9.17-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\CriLisCraft-1.9.2-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\CriLisCraft-1.9.3-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\CriLisCraft-1.9.4-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\CriLisCraft-1.9.5-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\CriLisCraft-1.9.6-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\CriLisCraft-1.9.7-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\CriLisCraft-1.9.8-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\CriLisCraft-1.9.9-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\classes\com\criliscraft\plugin\CriLisCraft.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\classes\com\criliscraft\plugin\api\Title.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\classes\com\criliscraft\plugin\api\chat\Color.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\classes\com\criliscraft\plugin\api\chat\Returns.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\classes\com\criliscraft\plugin\api\pex\Groups.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\classes\com\criliscraft\plugin\api\sql\Database.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\classes\com\criliscraft\plugin\api\sql\MySQL.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\classes\com\criliscraft\plugin\api\sql\SQLite.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\classes\com\criliscraft\plugin\api\user\UUIDFetcher.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\classes\com\criliscraft\plugin\commands\CLC.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\classes\com\criliscraft\plugin\commands\Die.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\classes\com\criliscraft\plugin\commands\Hat.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\classes\com\criliscraft\plugin\commands\Kit.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\classes\com\criliscraft\plugin\commands\rank\RankOne.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\classes\com\criliscraft\plugin\inv\DonationInv.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\classes\com\criliscraft\plugin\inv\Inventories.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\classes\com\criliscraft\plugin\listeners\BlockListener.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\classes\com\criliscraft\plugin\listeners\PlayerListener.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\classes\com\criliscraft\plugin\util\Items.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\classes\com\criliscraft\plugin\util\Perms.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\classes\plugin.yml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\maven-archiver\pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\maven-status\maven-compiler-plugin\compile\default-compile\createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\maven-status\maven-compiler-plugin\compile\default-compile\inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\maven-status\maven-compiler-plugin\testCompile\default-testCompile\inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\original-CriLisCraft-1.10.0-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\original-CriLisCraft-1.10.1-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\original-CriLisCraft-1.10.2-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\original-CriLisCraft-1.10.3-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\original-CriLisCraft-1.8-15.4.22-R0.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\original-CriLisCraft-1.8-15.4.22-R0.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\original-CriLisCraft-1.8-15.4.22-R1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\original-CriLisCraft-1.8-15.4.22-R1.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\original-CriLisCraft-1.8-15.4.22-R1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\original-CriLisCraft-1.8-15.4.30-R0.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\original-CriLisCraft-1.8-15.4.30-R0.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\original-CriLisCraft-1.8-15.4.30-R0.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\original-CriLisCraft-1.8-15.4.30-R0.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\original-CriLisCraft-1.8-15.4.30-R0.5.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\original-CriLisCraft-1.8-15.5.4-R0.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\original-CriLisCraft-1.8-15.5.4-R0.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\original-CriLisCraft-1.8-15.5.4-R0.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\original-CriLisCraft-1.8-15.5.5-R0.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\original-CriLisCraft-1.9-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\original-CriLisCraft-1.9.1-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\original-CriLisCraft-1.9.10-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\original-CriLisCraft-1.9.11-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\original-CriLisCraft-1.9.12-R0.1-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\original-CriLisCraft-1.9.12-R0.2-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\original-CriLisCraft-1.9.13-R0.1-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\original-CriLisCraft-1.9.13-R0.2-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\original-CriLisCraft-1.9.13-R0.3-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\original-CriLisCraft-1.9.13-R0.4-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\original-CriLisCraft-1.9.13-R0.5-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\original-CriLisCraft-1.9.13-R0.6-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\original-CriLisCraft-1.9.13-R0.7-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\original-CriLisCraft-1.9.13-R0.8-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\original-CriLisCraft-1.9.13-R0.9-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\original-CriLisCraft-1.9.14-R0.1-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\original-CriLisCraft-1.9.14-R0.2-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\original-CriLisCraft-1.9.14-R0.3-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\original-CriLisCraft-1.9.14-R0.4-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\original-CriLisCraft-1.9.14-R0.5-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\original-CriLisCraft-1.9.14-R0.6-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\original-CriLisCraft-1.9.14-R0.8-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\original-CriLisCraft-1.9.14-R0.9-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\original-CriLisCraft-1.9.15-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\original-CriLisCraft-1.9.16-R0.1-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\original-CriLisCraft-1.9.16-R0.2-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\original-CriLisCraft-1.9.16-R0.3s-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\original-CriLisCraft-1.9.16-R0.4-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\original-CriLisCraft-1.9.16-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\original-CriLisCraft-1.9.17-R0.1-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\original-CriLisCraft-1.9.17-R0.2-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\original-CriLisCraft-1.9.17-R0.3-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\original-CriLisCraft-1.9.17-R0.4-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\original-CriLisCraft-1.9.17-R0.5-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\original-CriLisCraft-1.9.17-R0.6-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\original-CriLisCraft-1.9.17-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\original-CriLisCraft-1.9.2-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\original-CriLisCraft-1.9.3-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\original-CriLisCraft-1.9.4-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\original-CriLisCraft-1.9.5-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\original-CriLisCraft-1.9.6-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\original-CriLisCraft-1.9.7-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\original-CriLisCraft-1.9.8-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\target\original-CriLisCraft-1.9.9-SNAPSHOT.jar" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/api/chat/ChatLib.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/command/HatCommand.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/api/perm/PermLib.java" />
+      <change type="DELETED" beforePath="D:\Plugins\CriLisCraftPlugin\src\main\java\com\criliscraft\plugin\api\ChatLib.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/CriLisCraft.java" afterPath="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/CriLisCraft.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CriLisCraftPlugin.iml" afterPath="$PROJECT_DIR$/CriLisCraftPlugin.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CriLisCraftPlugin.ipr" afterPath="$PROJECT_DIR$/CriLisCraftPlugin.ipr" />
@@ -239,7 +38,7 @@
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+              <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -248,8 +47,8 @@
       <file leaf-file-name="plugin.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/plugin.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.9615384">
-              <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+            <state vertical-scroll-proportion="-2.6153846">
+              <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -258,8 +57,8 @@
       <file leaf-file-name="CriLisCraft.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/CriLisCraft.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3411371">
-              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.5017361">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -267,12 +66,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ChatLib.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/api/ChatLib.java">
+      <file leaf-file-name="HatCommand.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/command/HatCommand.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding />
+              <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+              <folding>
+                <element signature="e#580#581#0" expanded="true" />
+                <element signature="e#616#617#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -297,12 +99,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/Tmp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/util/Title.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/commands/TitleTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/commands/init/RegisterCMDs.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/commands/ClearInv.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/party/Party.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/listeners/PartyListener.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/commands/StopAnnounce.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/commands/ranks/Guest.java" />
@@ -345,9 +141,15 @@
         <option value="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/api/user/UUIDFetcher.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/commands/rank/RankDonationCmd.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/plugin.yml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/CriLisCraft.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/api/ChatLib.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/api/sql/PlayerStats.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/api/sql/Reports.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/command/ReportCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/api/perm/PermLib.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/api/chat/ChatLib.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/plugin.yml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/command/HatCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/CriLisCraft.java" />
       </list>
     </option>
   </component>
@@ -423,7 +225,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -444,7 +245,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane">
         <subPane>
           <PATH>
@@ -485,12 +285,58 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="command" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CriLisCraftPlugin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CriLisCraftPlugin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.criliscraft.plugin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="perm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CriLisCraftPlugin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CriLisCraftPlugin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.criliscraft.plugin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chat" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -707,31 +553,31 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35399672" sideWeight="0.50777775" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14925373" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14925373" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34702703" sideWeight="0.49222222" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.141258" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.114072494" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34702703" sideWeight="0.49222222" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -784,6 +630,40 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/plugin.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/CriLisCraft.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/api/chat/ChatLib.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/bukkit/bukkit/1.7.9-R0.2/bukkit-1.7.9-R0.2.jar!/org/bukkit/plugin/java/JavaPlugin.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="7.3070173">
@@ -987,19 +867,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/bukkit/bukkit/1.8-R0.1-SNAPSHOT/bukkit-1.8-R0.1-SNAPSHOT.jar!/org/bukkit/plugin/java/JavaPlugin.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.4574713">
           <caret line="330" column="16" selection-start-line="330" selection-start-column="16" selection-end-line="330" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1007,7 +878,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.24637681">
           <caret line="36" column="6" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1023,7 +893,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5117057">
           <caret line="50" column="18" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1031,30 +900,60 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.32218507">
           <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/plugin.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.9615384">
-          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+        <state vertical-scroll-proportion="-2.6153846">
+          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/api/ChatLib.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/api/chat/ChatLib.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.037904125">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/api/perm/PermLib.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20847268">
+          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#195#196#0" expanded="true" />
+            <element signature="e#236#237#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/command/HatCommand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
+          <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+          <folding>
+            <element signature="e#580#581#0" expanded="true" />
+            <element signature="e#616#617#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/criliscraft/plugin/CriLisCraft.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3411371">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.5017361">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

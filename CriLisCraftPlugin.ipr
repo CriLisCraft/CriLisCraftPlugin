@@ -17,16 +17,16 @@
       <profile default="true" name="Default" enabled="false">
         <processorPath useClasspath="true" />
       </profile>
-      <profile default="false" name="Annotation profile for CriLisCraftPlugin" enabled="true">
-        <sourceOutputDir name="target\generated-sources\annotations" />
-        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+      <profile default="false" name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="CriLisCraftPlugin" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="CriLisCraftPlugin" target="1.7" />
+      <module name="CriLisCraftPlugin" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="CopyrightManager" default="" />
@@ -184,17 +184,6 @@
     <mapping directory="" vcs="Git" />
   </component>
   <component name="libraryTable">
-    <library name="Maven: com.google.code.gson:gson:2.1">
-      <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.1/gson-2.1.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.1/gson-2.1-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.1/gson-2.1-sources.jar!/" />
-      </SOURCES>
-    </library>
     <library name="Maven: com.google.guava:guava:17.0">
       <CLASSES>
         <root url="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/17.0/guava-17.0.jar!/" />
@@ -217,17 +206,6 @@
         <root url="jar://$MAVEN_REPOSITORY$/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: commons-dbcp:commons-dbcp:1.4">
-      <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/commons-dbcp/commons-dbcp/1.4/commons-dbcp-1.4.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/commons-dbcp/commons-dbcp/1.4/commons-dbcp-1.4-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/commons-dbcp/commons-dbcp/1.4/commons-dbcp-1.4-sources.jar!/" />
-      </SOURCES>
-    </library>
     <library name="Maven: commons-lang:commons-lang:2.6">
       <CLASSES>
         <root url="jar://$MAVEN_REPOSITORY$/commons-lang/commons-lang/2.6/commons-lang-2.6.jar!/" />
@@ -237,17 +215,6 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://$MAVEN_REPOSITORY$/commons-lang/commons-lang/2.6/commons-lang-2.6-sources.jar!/" />
-      </SOURCES>
-    </library>
-    <library name="Maven: commons-pool:commons-pool:1.5.4">
-      <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/commons-pool/commons-pool/1.5.4/commons-pool-1.5.4.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/commons-pool/commons-pool/1.5.4/commons-pool-1.5.4-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/commons-pool/commons-pool/1.5.4/commons-pool-1.5.4-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: javax.persistence:persistence-api:1.0">
@@ -270,39 +237,6 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://$MAVEN_REPOSITORY$/junit/junit/4.10/junit-4.10-sources.jar!/" />
-      </SOURCES>
-    </library>
-    <library name="Maven: mkremins:fanciful:0.3.1">
-      <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/mkremins/fanciful/0.3.1/fanciful-0.3.1.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/mkremins/fanciful/0.3.1/fanciful-0.3.1-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/mkremins/fanciful/0.3.1/fanciful-0.3.1-sources.jar!/" />
-      </SOURCES>
-    </library>
-    <library name="Maven: net.gravitydevelopment.updater:updater:2.3">
-      <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/net/gravitydevelopment/updater/updater/2.3/updater-2.3.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/net/gravitydevelopment/updater/updater/2.3/updater-2.3-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/net/gravitydevelopment/updater/updater/2.3/updater-2.3-sources.jar!/" />
-      </SOURCES>
-    </library>
-    <library name="Maven: net.milkbowl.vault:VaultAPI:1.5">
-      <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/net/milkbowl/vault/VaultAPI/1.5/VaultAPI-1.5.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/net/milkbowl/vault/VaultAPI/1.5/VaultAPI-1.5-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/net/milkbowl/vault/VaultAPI/1.5/VaultAPI-1.5-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: org.avaje:ebean:2.8.1">
@@ -338,17 +272,6 @@
         <root url="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: org.mcstats.bukkit:metrics:R7">
-      <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/mcstats/bukkit/metrics/R7/metrics-R7.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/org/mcstats/bukkit/metrics/R7/metrics-R7-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/mcstats/bukkit/metrics/R7/metrics-R7-sources.jar!/" />
-      </SOURCES>
-    </library>
     <library name="Maven: org.yaml:snakeyaml:1.14">
       <CLASSES>
         <root url="jar://$MAVEN_REPOSITORY$/org/yaml/snakeyaml/1.14/snakeyaml-1.14.jar!/" />
@@ -358,17 +281,6 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://$MAVEN_REPOSITORY$/org/yaml/snakeyaml/1.14/snakeyaml-1.14-sources.jar!/" />
-      </SOURCES>
-    </library>
-    <library name="Maven: ru.tehkode:PermissionsEx:1.22">
-      <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/ru/tehkode/PermissionsEx/1.22/PermissionsEx-1.22.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/ru/tehkode/PermissionsEx/1.22/PermissionsEx-1.22-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/ru/tehkode/PermissionsEx/1.22/PermissionsEx-1.22-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="TitleAPI">

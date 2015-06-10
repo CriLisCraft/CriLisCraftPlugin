@@ -1,20 +1,8 @@
 name: CriLisCraft
 main: com.criliscraft.plugin.CriLisCraft
 author: Chaka
-version: 1.8-15.5.6-R0.0
+version: 2.0.0
 commands:
-   clc:
-      description: The Main Command
-      usage: /<command>
    hat:
-      description: Hat command
-      usage: /<command>
-   kit:
-      description: Experimenting with kits
-      usage: /<command>
-   die:
-      description: An Amazing Death
-      usage: /<command>
-   rankdonation:
-      description: A command to do stuff
+      description: Sets the players helmet to the item in their hand.
       usage: /<command>
