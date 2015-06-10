@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.criliscraft.plugin</groupId>
     <artifactId>CriLisCraft</artifactId>
-    <version>1.8-15.5.5-R0.0</version>
+    <version>1.8-15.5.6-R0.0</version>
     <build>
         <plugins>
             <plugin>
@@ -54,6 +54,10 @@
             <url>http://repo.mcstats.org/content/repositories/public</url>
         </repository>
         <repository>
+            <id>vault-repo</id>
+            <url>http://nexus.theyeticave.net/content/repositories/pub_releases</url>
+        </repository>
+        <repository>
             <id>pex-repo</id>
             <url>http://pex-repo.zachsthings.com</url>
         </repository>
@@ -78,6 +82,12 @@
             <groupId>ru.tehkode</groupId>
             <artifactId>PermissionsEx</artifactId>
             <version>1.22</version>
+        </dependency>
+        <dependency>
+            <groupId>net.milkbowl.vault</groupId>
+            <artifactId>VaultAPI</artifactId>
+            <version>1.5</version>
+            <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>org.mcstats.bukkit</groupId>

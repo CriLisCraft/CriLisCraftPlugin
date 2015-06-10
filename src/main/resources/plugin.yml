@@ -1,7 +1,7 @@
 name: CriLisCraft
 main: com.criliscraft.plugin.CriLisCraft
 author: Chaka
-version: 1.8-15.5.5-R0.0
+version: 1.8-15.5.6-R0.0
 commands:
    clc:
       description: The Main Command
@@ -15,6 +15,6 @@ commands:
    die:
       description: An Amazing Death
       usage: /<command>
-   rankone:
+   rankdonation:
       description: A command to do stuff
       usage: /<command>
