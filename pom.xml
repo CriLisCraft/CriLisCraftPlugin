@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.criliscraft.plugin</groupId>
     <artifactId>CriLisCraft</artifactId>
-    <version>2.0.0</version>
+    <version>2.0.1</version>
 
     <repositories>
         <repository>
@@ -18,7 +18,7 @@
         <dependency>
             <groupId>org.bukkit</groupId>
             <artifactId>bukkit</artifactId>
-            <version>1.8-R0.1-SNAPSHOT</version>
+            <version>1.8.7-R0.1-SNAPSHOT</version>
             <type>jar</type>
             <scope>provided</scope>
         </dependency>

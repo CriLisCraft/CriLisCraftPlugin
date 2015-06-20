@@ -1,7 +1,7 @@
 name: CriLisCraft
 main: com.criliscraft.plugin.CriLisCraft
 author: Chaka
-version: 2.0.0
+version: 2.0.1
 commands:
    hat:
       description: Sets the players helmet to the item in their hand.
